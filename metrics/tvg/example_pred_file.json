@@ -1,0 +1,3602 @@
+{
+    "3187": {
+        "timestamp": [],
+        "query": "person takes a drink from a coffee cup.",
+        "vid": "DOYQE.mp4"
+    },
+    "1805": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person laugh as they continue to eat their sandwich.",
+        "vid": "JS3TB.mp4"
+    },
+    "478": {
+        "timestamp": [
+            [
+                0.0,
+                18.0
+            ]
+        ],
+        "query": "a person opens a door.",
+        "vid": "SJ51G.mp4"
+    },
+    "30": {
+        "timestamp": [],
+        "query": "the person opens a door leading outside.",
+        "vid": "5NV2Z.mp4"
+    },
+    "371": {
+        "timestamp": [],
+        "query": "the person in the doorway walks away holding the towel.",
+        "vid": "NI15V.mp4"
+    },
+    "3305": {
+        "timestamp": [
+            [
+                0.6,
+                19.8
+            ]
+        ],
+        "query": "person slowly drinking a cup of coffee.",
+        "vid": "KQDX6.mp4"
+    },
+    "2384": {
+        "timestamp": [
+            [
+                5.5,
+                19.1
+            ]
+        ],
+        "query": "one person takes a pillow.",
+        "vid": "Y44TV.mp4"
+    },
+    "143": {
+        "timestamp": [],
+        "query": "person puts the books down.",
+        "vid": "6ZWSU.mp4"
+    },
+    "2750": {
+        "timestamp": [
+            [
+                2.0,
+                3.0
+            ]
+        ],
+        "query": "person start reading a book.",
+        "vid": "QIT2W.mp4"
+    },
+    "2838": {
+        "timestamp": [],
+        "query": "a person opens a door holding a book.",
+        "vid": "GH19N.mp4"
+    },
+    "343": {
+        "timestamp": [],
+        "query": "a person is undressing in their laundry room.",
+        "vid": "NO1GJ.mp4"
+    },
+    "403": {
+        "timestamp": [],
+        "query": "person holding a towel over one arm.",
+        "vid": "AIJ0M.mp4"
+    },
+    "3139": {
+        "timestamp": [],
+        "query": "person eats some food.",
+        "vid": "TFWNO.mp4"
+    },
+    "1452": {
+        "timestamp": [],
+        "query": "person takes a drink from a cup.",
+        "vid": "SAO1A.mp4"
+    },
+    "969": {
+        "timestamp": [
+            [
+                1.0,
+                2.0
+            ]
+        ],
+        "query": "the person sits down in a chair.",
+        "vid": "TH3M0.mp4"
+    },
+    "71": {
+        "timestamp": [],
+        "query": "the person is drinking something from a cup.",
+        "vid": "1CYLM.mp4"
+    },
+    "126": {
+        "timestamp": [],
+        "query": "person takes the tray of food.",
+        "vid": "OE2M1.mp4"
+    },
+    "3230": {
+        "timestamp": [],
+        "query": "a person opened a refrigerator.",
+        "vid": "U5T4M.mp4"
+    },
+    "64": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person is lying on bed sneezing.",
+        "vid": "JVLAZ.mp4"
+    },
+    "1417": {
+        "timestamp": [
+            [
+                1.0,
+                2.0
+            ]
+        ],
+        "query": "person turn off the light.",
+        "vid": "JTXAM.mp4"
+    },
+    "2655": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person they take off their shoes.",
+        "vid": "CUQYX.mp4"
+    },
+    "2552": {
+        "timestamp": [],
+        "query": "person turns the light off.",
+        "vid": "8N4O9.mp4"
+    },
+    "1983": {
+        "timestamp": [],
+        "query": "a person drinks milk from a bottle.",
+        "vid": "M014B.mp4"
+    },
+    "2522": {
+        "timestamp": [],
+        "query": "the person runs over to the window.",
+        "vid": "NKLTK.mp4"
+    },
+    "1898": {
+        "timestamp": [
+            [
+                0.0,
+                1.9
+            ]
+        ],
+        "query": "person holding a book.",
+        "vid": "0LHWF.mp4"
+    },
+    "608": {
+        "timestamp": [
+            [
+                0.0,
+                8.0
+            ]
+        ],
+        "query": "the person opens a closet.",
+        "vid": "MBAA5.mp4"
+    },
+    "373": {
+        "timestamp": [],
+        "query": "person holding a cup.",
+        "vid": "6HT0J.mp4"
+    },
+    "749": {
+        "timestamp": [],
+        "query": "a person opens a closet door.",
+        "vid": "MS4GA.mp4"
+    },
+    "2922": {
+        "timestamp": [
+            [
+                0.0,
+                0.8
+            ]
+        ],
+        "query": "person takes a blanket.",
+        "vid": "2UQKZ.mp4"
+    },
+    "468": {
+        "timestamp": [
+            [
+                45.1,
+                48.3
+            ]
+        ],
+        "query": "the person sits in a chair for a moment.",
+        "vid": "9POJB.mp4"
+    },
+    "3462": {
+        "timestamp": [],
+        "query": "the person begins to take their shoes off.",
+        "vid": "ZNQVC.mp4"
+    },
+    "59": {
+        "timestamp": [],
+        "query": "the person opens the bag.",
+        "vid": "I7AS7.mp4"
+    },
+    "2060": {
+        "timestamp": [],
+        "query": "a person opens the door to a room.",
+        "vid": "J3RD3.mp4"
+    },
+    "1993": {
+        "timestamp": [],
+        "query": "person closes the door.",
+        "vid": "QMHK8.mp4"
+    },
+    "3606": {
+        "timestamp": [],
+        "query": "a person turns on a light in the closet.",
+        "vid": "6JLD4.mp4"
+    },
+    "1023": {
+        "timestamp": [],
+        "query": "a person sits in a chair.",
+        "vid": "J59UP.mp4"
+    },
+    "264": {
+        "timestamp": [
+            [
+                0.2,
+                2.3
+            ]
+        ],
+        "query": "person throws their blanket inside.",
+        "vid": "TUD6M.mp4"
+    },
+    "2733": {
+        "timestamp": [],
+        "query": "person drinking from a cup.",
+        "vid": "P8G8V.mp4"
+    },
+    "2216": {
+        "timestamp": [],
+        "query": "person takes a bite of a sandwich.",
+        "vid": "JKWJ6.mp4"
+    },
+    "1908": {
+        "timestamp": [],
+        "query": "person sitting on bed.",
+        "vid": "EURF2.mp4"
+    },
+    "280": {
+        "timestamp": [],
+        "query": "a person takes a book off a shelf.",
+        "vid": "QCVZN.mp4"
+    },
+    "2463": {
+        "timestamp": [],
+        "query": "person holding a glass of water.",
+        "vid": "28BVI.mp4"
+    },
+    "2765": {
+        "timestamp": [],
+        "query": "the person sits down in a chair.",
+        "vid": "4BEZX.mp4"
+    },
+    "364": {
+        "timestamp": [],
+        "query": "a person awakens in their home office.",
+        "vid": "759MY.mp4"
+    },
+    "2109": {
+        "timestamp": [],
+        "query": "person looking out the window.",
+        "vid": "BLWIW.mp4"
+    },
+    "2371": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person turns out the light in the closet.",
+        "vid": "QQMY8.mp4"
+    },
+    "188": {
+        "timestamp": [],
+        "query": "person closes the cabinet door.",
+        "vid": "1W6YY.mp4"
+    },
+    "1104": {
+        "timestamp": [],
+        "query": "person takes some food out of a box.",
+        "vid": "D4D2T.mp4"
+    },
+    "3376": {
+        "timestamp": [],
+        "query": "a person undresses by taking off a jacket.",
+        "vid": "X07QW.mp4"
+    },
+    "2279": {
+        "timestamp": [],
+        "query": "person eats it.",
+        "vid": "AYZS4.mp4"
+    },
+    "258": {
+        "timestamp": [],
+        "query": "a person is eating from a can.",
+        "vid": "BFCU9.mp4"
+    },
+    "2640": {
+        "timestamp": [],
+        "query": "which the person is putting onto a shelf.",
+        "vid": "VFAE3.mp4"
+    },
+    "1238": {
+        "timestamp": [],
+        "query": "person they stand up.",
+        "vid": "0J471.mp4"
+    },
+    "1970": {
+        "timestamp": [],
+        "query": "person sitting in a chair.",
+        "vid": "SB8G0.mp4"
+    },
+    "3482": {
+        "timestamp": [],
+        "query": "a person takes dishes off a shelf.",
+        "vid": "ALJ7B.mp4"
+    },
+    "1455": {
+        "timestamp": [],
+        "query": "person tried to close the window.",
+        "vid": "FLLUJ.mp4"
+    },
+    "1091": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "a person is holding a broom.",
+        "vid": "LV4U7.mp4"
+    },
+    "1020": {
+        "timestamp": [
+            [
+                0.0,
+                18.5
+            ]
+        ],
+        "query": "person begins sitting on the sofa.",
+        "vid": "V8IGX.mp4"
+    },
+    "2684": {
+        "timestamp": [],
+        "query": "person they run to the door.",
+        "vid": "1BGZ0.mp4"
+    },
+    "819": {
+        "timestamp": [],
+        "query": "person is drinking tea from glass mug.",
+        "vid": "1XBU2.mp4"
+    },
+    "1857": {
+        "timestamp": [
+            [
+                0.3,
+                24.7
+            ]
+        ],
+        "query": "the person takes a paper towel from the shelf.",
+        "vid": "YT2C3.mp4"
+    },
+    "3590": {
+        "timestamp": [],
+        "query": "person closed a cabinet.",
+        "vid": "Y4GHN.mp4"
+    },
+    "2171": {
+        "timestamp": [
+            [
+                3.0,
+                7.0
+            ]
+        ],
+        "query": "person looks out the window.",
+        "vid": "YAFX0.mp4"
+    },
+    "2725": {
+        "timestamp": [],
+        "query": "a person puts a light inside of a refrigerator.",
+        "vid": "0O6RK.mp4"
+    },
+    "79": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person undressing by the shelf beside the doorway.",
+        "vid": "43CCM.mp4"
+    },
+    "2081": {
+        "timestamp": [],
+        "query": "a person throws shoes in the corner.",
+        "vid": "7835X.mp4"
+    },
+    "289": {
+        "timestamp": [
+            [
+                50.8,
+                55.5
+            ]
+        ],
+        "query": "another person is sneezing on a sandwich.",
+        "vid": "U8M2P.mp4"
+    },
+    "23": {
+        "timestamp": [
+            [
+                0.0,
+                3.6
+            ]
+        ],
+        "query": "person they throw their clothes on to a nearby desk.",
+        "vid": "F7TG5.mp4"
+    },
+    "1366": {
+        "timestamp": [],
+        "query": "person starts sneezing.",
+        "vid": "B4XZD.mp4"
+    },
+    "588": {
+        "timestamp": [],
+        "query": "person start running again.",
+        "vid": "H608V.mp4"
+    },
+    "2908": {
+        "timestamp": [
+            [
+                3.0,
+                60.0
+            ]
+        ],
+        "query": "person they pour a drink in a glass.",
+        "vid": "0TKKR.mp4"
+    },
+    "1936": {
+        "timestamp": [],
+        "query": "person smiling very happily.",
+        "vid": "TS2DM.mp4"
+    },
+    "2692": {
+        "timestamp": [
+            [
+                30.1,
+                31.3
+            ]
+        ],
+        "query": "person puts the mirror in the box.",
+        "vid": "EOUCM.mp4"
+    },
+    "1545": {
+        "timestamp": [
+            [
+                0.0,
+                26.9
+            ]
+        ],
+        "query": "a person opened a pantry door.",
+        "vid": "XPXWY.mp4"
+    },
+    "684": {
+        "timestamp": [],
+        "query": "person sat on the sofa to read a book.",
+        "vid": "75M1Z.mp4"
+    },
+    "221": {
+        "timestamp": [],
+        "query": "a person is eating.",
+        "vid": "3J9L5.mp4"
+    },
+    "312": {
+        "timestamp": [],
+        "query": "person sits down in a red chair.",
+        "vid": "YJ1KW.mp4"
+    },
+    "2406": {
+        "timestamp": [],
+        "query": "person puts it in a box.",
+        "vid": "H411A.mp4"
+    },
+    "2033": {
+        "timestamp": [
+            [
+                0.0,
+                10.0
+            ]
+        ],
+        "query": "person they put the towel down.",
+        "vid": "OT35M.mp4"
+    },
+    "671": {
+        "timestamp": [
+            [
+                0.0,
+                28.8
+            ]
+        ],
+        "query": "person closing the door.",
+        "vid": "J6JNK.mp4"
+    },
+    "308": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "a person sits on the floor.",
+        "vid": "86E2E.mp4"
+    },
+    "2282": {
+        "timestamp": [
+            [
+                1.0,
+                2.0
+            ]
+        ],
+        "query": "a person opens a box of groceries.",
+        "vid": "MA6GY.mp4"
+    },
+    "881": {
+        "timestamp": [],
+        "query": "a person is holding a pillow.",
+        "vid": "XO8NL.mp4"
+    },
+    "590": {
+        "timestamp": [],
+        "query": "person reading books.",
+        "vid": "IGZZG.mp4"
+    },
+    "111": {
+        "timestamp": [],
+        "query": "a person is smiling.",
+        "vid": "XMYXI.mp4"
+    },
+    "1418": {
+        "timestamp": [],
+        "query": "person closed the book.",
+        "vid": "JTXAM.mp4"
+    },
+    "3157": {
+        "timestamp": [
+            [
+                0.1,
+                27.5
+            ]
+        ],
+        "query": "person they stand up.",
+        "vid": "4VX01.mp4"
+    },
+    "454": {
+        "timestamp": [],
+        "query": "the person eats some food.",
+        "vid": "ZMY8M.mp4"
+    },
+    "2169": {
+        "timestamp": [
+            [
+                13.3,
+                21.0
+            ]
+        ],
+        "query": "a person puts down a large bag.",
+        "vid": "YAFX0.mp4"
+    },
+    "578": {
+        "timestamp": [],
+        "query": "person pick up a cup to drink.",
+        "vid": "318CP.mp4"
+    },
+    "2746": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person drinking from a coffee cup.",
+        "vid": "OPSF8.mp4"
+    },
+    "1250": {
+        "timestamp": [
+            [
+                0.0,
+                16.9
+            ]
+        ],
+        "query": "a person is tidying up a shelf.",
+        "vid": "YIIFF.mp4"
+    },
+    "1860": {
+        "timestamp": [
+            [
+                24.7,
+                28.5
+            ]
+        ],
+        "query": "a person opens the pantry door.",
+        "vid": "YT2C3.mp4"
+    },
+    "162": {
+        "timestamp": [],
+        "query": "person takes a drink from a glass.",
+        "vid": "MAUMO.mp4"
+    },
+    "1704": {
+        "timestamp": [
+            [
+                20.8,
+                21.9
+            ]
+        ],
+        "query": "person runs to the window.",
+        "vid": "OB660.mp4"
+    },
+    "1133": {
+        "timestamp": [
+            [
+                0.5,
+                4.7
+            ]
+        ],
+        "query": "person sits on a chair to look at them.",
+        "vid": "727IZ.mp4"
+    },
+    "2713": {
+        "timestamp": [],
+        "query": "the person is undressing in front of a sink.",
+        "vid": "L8RW8.mp4"
+    },
+    "3303": {
+        "timestamp": [
+            [
+                4.6,
+                5.0
+            ]
+        ],
+        "query": "person opens a door.",
+        "vid": "KQDX6.mp4"
+    },
+    "164": {
+        "timestamp": [],
+        "query": "person puts it into a box.",
+        "vid": "G30NS.mp4"
+    },
+    "726": {
+        "timestamp": [],
+        "query": "person so they must open the pantry door.",
+        "vid": "O0349.mp4"
+    },
+    "1112": {
+        "timestamp": [
+            [
+                0.1,
+                0.6
+            ]
+        ],
+        "query": "person puts the laptop aside.",
+        "vid": "VD58Y.mp4"
+    },
+    "633": {
+        "timestamp": [],
+        "query": "person closes the book.",
+        "vid": "9TM1K.mp4"
+    },
+    "1229": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person puts it down on the shelf.",
+        "vid": "MB281.mp4"
+    },
+    "3471": {
+        "timestamp": [],
+        "query": "a person opens the doors of an armoire.",
+        "vid": "F1LTO.mp4"
+    },
+    "3618": {
+        "timestamp": [],
+        "query": "person open a door.",
+        "vid": "WZZPC.mp4"
+    },
+    "3191": {
+        "timestamp": [],
+        "query": "person looking at various books on a shelf.",
+        "vid": "ZPRJH.mp4"
+    },
+    "3415": {
+        "timestamp": [],
+        "query": "person opens a door.",
+        "vid": "C1DK7.mp4"
+    },
+    "1902": {
+        "timestamp": [
+            [
+                0.0,
+                26.6
+            ]
+        ],
+        "query": "person they open a box.",
+        "vid": "RJNAB.mp4"
+    },
+    "168": {
+        "timestamp": [
+            [
+                42.2,
+                51.6
+            ]
+        ],
+        "query": "the person laughs at something on the screen multiple times.",
+        "vid": "SUJWY.mp4"
+    },
+    "2306": {
+        "timestamp": [],
+        "query": "person sits on a couch.",
+        "vid": "GV0L7.mp4"
+    },
+    "1581": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person running in place.",
+        "vid": "BIJYC.mp4"
+    },
+    "3130": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person close the refrigerator.",
+        "vid": "0LDN3.mp4"
+    },
+    "1431": {
+        "timestamp": [],
+        "query": "another person comes running into the entryway holding a box.",
+        "vid": "OXCDM.mp4"
+    },
+    "2031": {
+        "timestamp": [
+            [
+                0.0,
+                2.0
+            ]
+        ],
+        "query": "person stop to open a window.",
+        "vid": "YGL6R.mp4"
+    },
+    "1399": {
+        "timestamp": [],
+        "query": "person takes a drink from a glass nearby.",
+        "vid": "F3M1Q.mp4"
+    },
+    "2387": {
+        "timestamp": [],
+        "query": "person drinks from a cup.",
+        "vid": "31YNM.mp4"
+    },
+    "3344": {
+        "timestamp": [],
+        "query": "person pours some juice into a glass.",
+        "vid": "OQ54Y.mp4"
+    },
+    "1917": {
+        "timestamp": [],
+        "query": "person they are eating a snack.",
+        "vid": "OTUV7.mp4"
+    },
+    "1949": {
+        "timestamp": [],
+        "query": "person drink a cup of coffee.",
+        "vid": "68OG0.mp4"
+    },
+    "185": {
+        "timestamp": [
+            [
+                20.0,
+                20.8
+            ]
+        ],
+        "query": "a person is putting away groceries in the fridge.",
+        "vid": "XT9D4.mp4"
+    },
+    "3206": {
+        "timestamp": [],
+        "query": "a person is playing on their phone.",
+        "vid": "TTVN5.mp4"
+    },
+    "1928": {
+        "timestamp": [],
+        "query": "this person runs into the other room.",
+        "vid": "DMO76.mp4"
+    },
+    "3564": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person pouring a cup of coffee.",
+        "vid": "Y50QF.mp4"
+    },
+    "3347": {
+        "timestamp": [],
+        "query": "person watching herself in the mirror.",
+        "vid": "GS3M4.mp4"
+    },
+    "2436": {
+        "timestamp": [],
+        "query": "a person sits on the couch holding a pillow.",
+        "vid": "YE47Y.mp4"
+    },
+    "696": {
+        "timestamp": [
+            [
+                0.6,
+                30.3
+            ]
+        ],
+        "query": "person runs around with a bag in their hand.",
+        "vid": "FORXE.mp4"
+    },
+    "1800": {
+        "timestamp": [],
+        "query": "person closes the door.",
+        "vid": "JMPKP.mp4"
+    },
+    "3004": {
+        "timestamp": [
+            [
+                13.0,
+                16.8
+            ]
+        ],
+        "query": "person opens bag.",
+        "vid": "MFGLZ.mp4"
+    },
+    "3199": {
+        "timestamp": [],
+        "query": "the person begins tidying their clothes.",
+        "vid": "K5NFS.mp4"
+    },
+    "2126": {
+        "timestamp": [],
+        "query": "one person opens a box of shoes.",
+        "vid": "IDXM0.mp4"
+    },
+    "3337": {
+        "timestamp": [],
+        "query": "person drinking from a glass.",
+        "vid": "OWCJT.mp4"
+    },
+    "1793": {
+        "timestamp": [],
+        "query": "person takes a pink laptop from a shelf opens.",
+        "vid": "ECW3E.mp4"
+    },
+    "1211": {
+        "timestamp": [],
+        "query": "a person is sitting at the table.",
+        "vid": "PC7H2.mp4"
+    },
+    "1126": {
+        "timestamp": [],
+        "query": "a person runs to the doorway of the pantry.",
+        "vid": "1F706.mp4"
+    },
+    "507": {
+        "timestamp": [
+            [
+                30.1,
+                36.6
+            ]
+        ],
+        "query": "a person is cooking on a stove.",
+        "vid": "W0QSB.mp4"
+    },
+    "3185": {
+        "timestamp": [],
+        "query": "the person stops cooking to drink from a cup.",
+        "vid": "DOYQE.mp4"
+    },
+    "760": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person try to open the door.",
+        "vid": "FYHTC.mp4"
+    },
+    "1705": {
+        "timestamp": [],
+        "query": "person looking at a book.",
+        "vid": "7LWW3.mp4"
+    },
+    "1786": {
+        "timestamp": [],
+        "query": "person they hold a book up.",
+        "vid": "9MNZ5.mp4"
+    },
+    "3150": {
+        "timestamp": [],
+        "query": "person hold the broom between the their legs.",
+        "vid": "7614L.mp4"
+    },
+    "489": {
+        "timestamp": [
+            [
+                0.0,
+                2.0
+            ]
+        ],
+        "query": "a person opens a cabinet.",
+        "vid": "WD35N.mp4"
+    },
+    "2170": {
+        "timestamp": [
+            [
+                2.3,
+                30.4
+            ]
+        ],
+        "query": "person looks out of a window.",
+        "vid": "YAFX0.mp4"
+    },
+    "422": {
+        "timestamp": [],
+        "query": "person takes several pictures of different things in the room.",
+        "vid": "YQT32.mp4"
+    },
+    "3397": {
+        "timestamp": [
+            [
+                24.2,
+                34.3
+            ]
+        ],
+        "query": "person sneezing in front of the sink.",
+        "vid": "PSAVM.mp4"
+    },
+    "3442": {
+        "timestamp": [
+            [
+                1.9,
+                9.6
+            ]
+        ],
+        "query": "person cooking eggs on the stove.",
+        "vid": "UETQS.mp4"
+    },
+    "1987": {
+        "timestamp": [],
+        "query": "person turned off the light.",
+        "vid": "W3NN2.mp4"
+    },
+    "1543": {
+        "timestamp": [
+            [
+                0.0,
+                5.0
+            ]
+        ],
+        "query": "person opens the door.",
+        "vid": "XPXWY.mp4"
+    },
+    "3349": {
+        "timestamp": [
+            [
+                14.4,
+                22.4
+            ]
+        ],
+        "query": "person takes out a laptop computer.",
+        "vid": "TYWHY.mp4"
+    },
+    "3345": {
+        "timestamp": [],
+        "query": "person they pour the milk into a glass.",
+        "vid": "OQ54Y.mp4"
+    },
+    "2688": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "a person is holding a box.",
+        "vid": "EOUCM.mp4"
+    },
+    "1046": {
+        "timestamp": [],
+        "query": "person is smiling.",
+        "vid": "Y2MGC.mp4"
+    },
+    "2625": {
+        "timestamp": [
+            [
+                18.5,
+                19.5
+            ]
+        ],
+        "query": "person sit on the sofa.",
+        "vid": "AK9PN.mp4"
+    },
+    "784": {
+        "timestamp": [
+            [
+                0.0,
+                20.8
+            ]
+        ],
+        "query": "person sitting on a bed with a cell phone.",
+        "vid": "TJJKK.mp4"
+    },
+    "1414": {
+        "timestamp": [],
+        "query": "person puts the books into his backpack.",
+        "vid": "99B6U.mp4"
+    },
+    "443": {
+        "timestamp": [],
+        "query": "another person walks into a room eating some food.",
+        "vid": "7XMBM.mp4"
+    },
+    "2878": {
+        "timestamp": [],
+        "query": "person looking out a window.",
+        "vid": "NTXXB.mp4"
+    },
+    "2867": {
+        "timestamp": [],
+        "query": "person sit on the couch.",
+        "vid": "CPM4M.mp4"
+    },
+    "3317": {
+        "timestamp": [],
+        "query": "person laying back down on the floor for a moment.",
+        "vid": "LG7WK.mp4"
+    },
+    "643": {
+        "timestamp": [
+            [
+                16.1,
+                23.3
+            ]
+        ],
+        "query": "person looks outy the window.",
+        "vid": "12XD3.mp4"
+    },
+    "2377": {
+        "timestamp": [
+            [
+                3.4,
+                17.1
+            ]
+        ],
+        "query": "a person opens a door.",
+        "vid": "8NEYJ.mp4"
+    },
+    "1103": {
+        "timestamp": [],
+        "query": "person eats a sandwich.",
+        "vid": "D4D2T.mp4"
+    },
+    "634": {
+        "timestamp": [
+            [
+                0.0,
+                5.0
+            ]
+        ],
+        "query": "a person is awakening.",
+        "vid": "YMD74.mp4"
+    },
+    "3473": {
+        "timestamp": [],
+        "query": "person opens the doors.",
+        "vid": "F1LTO.mp4"
+    },
+    "3575": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person fixes their hair.",
+        "vid": "5WS7U.mp4"
+    },
+    "2949": {
+        "timestamp": [],
+        "query": "another person opens the bathroom door.",
+        "vid": "N0ODO.mp4"
+    },
+    "1325": {
+        "timestamp": [],
+        "query": "person close the book.",
+        "vid": "P3CLM.mp4"
+    },
+    "3250": {
+        "timestamp": [],
+        "query": "the person walked slowly down the hall holding a pillow.",
+        "vid": "PN1F2.mp4"
+    },
+    "3223": {
+        "timestamp": [],
+        "query": "person opens a closet.",
+        "vid": "6E8GP.mp4"
+    },
+    "1829": {
+        "timestamp": [
+            [
+                13.0,
+                15.0
+            ]
+        ],
+        "query": "person drinking from a coffee cup.",
+        "vid": "O3HV7.mp4"
+    },
+    "2951": {
+        "timestamp": [
+            [
+                1.0,
+                2.0
+            ]
+        ],
+        "query": "person takes something with a glass of water.",
+        "vid": "FQOGZ.mp4"
+    },
+    "3653": {
+        "timestamp": [],
+        "query": "a person awakens in their living room sneezing.",
+        "vid": "GL7E6.mp4"
+    },
+    "321": {
+        "timestamp": [],
+        "query": "person takes book out.",
+        "vid": "NW0KT.mp4"
+    },
+    "1618": {
+        "timestamp": [],
+        "query": "person closes the cabinet door where the mug is.",
+        "vid": "2ZICJ.mp4"
+    },
+    "877": {
+        "timestamp": [],
+        "query": "person put a item on the table.",
+        "vid": "TCI7K.mp4"
+    },
+    "195": {
+        "timestamp": [],
+        "query": "a person takes a glass of water.",
+        "vid": "GHC5X.mp4"
+    },
+    "1172": {
+        "timestamp": [],
+        "query": "person puts it on a table.",
+        "vid": "13XM4.mp4"
+    },
+    "3290": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "a person sits down on a couch.",
+        "vid": "UPT25.mp4"
+    },
+    "155": {
+        "timestamp": [],
+        "query": "person begins opening the window.",
+        "vid": "AK2KG.mp4"
+    },
+    "898": {
+        "timestamp": [],
+        "query": "person takes a picture of something.",
+        "vid": "AFCDN.mp4"
+    },
+    "2075": {
+        "timestamp": [
+            [
+                0.0,
+                24.5
+            ]
+        ],
+        "query": "person walks out of the closet closing the door.",
+        "vid": "JFBTV.mp4"
+    },
+    "3398": {
+        "timestamp": [],
+        "query": "person atart sneezing.",
+        "vid": "PSAVM.mp4"
+    },
+    "359": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person takes a bite of food.",
+        "vid": "TJZ0P.mp4"
+    },
+    "3247": {
+        "timestamp": [],
+        "query": "a person opens door.",
+        "vid": "1B9DK.mp4"
+    },
+    "2864": {
+        "timestamp": [
+            [
+                0.0,
+                0.5
+            ]
+        ],
+        "query": "person they start eating the cereal.",
+        "vid": "CPM4M.mp4"
+    },
+    "1298": {
+        "timestamp": [],
+        "query": "a person is undressing.",
+        "vid": "BEAAA.mp4"
+    },
+    "1251": {
+        "timestamp": [],
+        "query": "person eating a cookie.",
+        "vid": "IIL9C.mp4"
+    },
+    "1887": {
+        "timestamp": [
+            [
+                1.1,
+                4.2
+            ]
+        ],
+        "query": "person put it on the table.",
+        "vid": "FJYWX.mp4"
+    },
+    "271": {
+        "timestamp": [
+            [
+                20.8,
+                25.0
+            ]
+        ],
+        "query": "person closes a cupboard door.",
+        "vid": "GL2JW.mp4"
+    },
+    "2396": {
+        "timestamp": [
+            [
+                16.8,
+                17.4
+            ]
+        ],
+        "query": "person closed the door.",
+        "vid": "O3Y57.mp4"
+    },
+    "1054": {
+        "timestamp": [],
+        "query": "person they turn on the light.",
+        "vid": "5HPZ1.mp4"
+    },
+    "3508": {
+        "timestamp": [],
+        "query": "person they stand up.",
+        "vid": "D01MJ.mp4"
+    },
+    "299": {
+        "timestamp": [
+            [
+                19.2,
+                21.8
+            ]
+        ],
+        "query": "a person walks through the doorway into the home office.",
+        "vid": "OTIA2.mp4"
+    },
+    "2821": {
+        "timestamp": [
+            [
+                0.0,
+                19.6
+            ]
+        ],
+        "query": "person open a box.",
+        "vid": "JZ45I.mp4"
+    },
+    "1746": {
+        "timestamp": [],
+        "query": "person a is eating at a table in the kitchen.",
+        "vid": "VW4UD.mp4"
+    },
+    "826": {
+        "timestamp": [
+            [
+                0.0,
+                29.0
+            ]
+        ],
+        "query": "a person opens a cabinet.",
+        "vid": "BB7WL.mp4"
+    },
+    "414": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person puts a laptop down on a table.",
+        "vid": "QMIKJ.mp4"
+    },
+    "1624": {
+        "timestamp": [],
+        "query": "the person is also watching television.",
+        "vid": "02DPI.mp4"
+    },
+    "797": {
+        "timestamp": [],
+        "query": "person run to the other side of the room.",
+        "vid": "87Y64.mp4"
+    },
+    "2887": {
+        "timestamp": [
+            [
+                0.5,
+                30.0
+            ]
+        ],
+        "query": "a person is eating food in the man cave.",
+        "vid": "BEJVY.mp4"
+    },
+    "1882": {
+        "timestamp": [],
+        "query": "person puts a pillow on a chair.",
+        "vid": "F024X.mp4"
+    },
+    "2050": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "the person closes the door.",
+        "vid": "UR5TU.mp4"
+    },
+    "967": {
+        "timestamp": [
+            [
+                20.8,
+                29.7
+            ]
+        ],
+        "query": "person sits on a chair.",
+        "vid": "TH3M0.mp4"
+    },
+    "3352": {
+        "timestamp": [
+            [
+                0.0,
+                29.9
+            ]
+        ],
+        "query": "a person runs into the room.",
+        "vid": "TYWHY.mp4"
+    },
+    "3266": {
+        "timestamp": [],
+        "query": "a person is putting clothes into a laundry machine.",
+        "vid": "7R44Z.mp4"
+    },
+    "1479": {
+        "timestamp": [
+            [
+                19.5,
+                21.0
+            ]
+        ],
+        "query": "person opens the door bends down.",
+        "vid": "BQZ52.mp4"
+    },
+    "840": {
+        "timestamp": [],
+        "query": "the person sits down in a chair.",
+        "vid": "D1WYU.mp4"
+    },
+    "3675": {
+        "timestamp": [
+            [
+                2.6,
+                33.9
+            ]
+        ],
+        "query": "person takes the plate to the table to eat.",
+        "vid": "120YL.mp4"
+    },
+    "2877": {
+        "timestamp": [],
+        "query": "person takes a picture.",
+        "vid": "NTXXB.mp4"
+    },
+    "1725": {
+        "timestamp": [],
+        "query": "person eat a sandwich stand up.",
+        "vid": "FNBYE.mp4"
+    },
+    "715": {
+        "timestamp": [
+            [
+                0.0,
+                21.1
+            ]
+        ],
+        "query": "person start running in place.",
+        "vid": "11L5M.mp4"
+    },
+    "2394": {
+        "timestamp": [
+            [
+                2.5,
+                3.8
+            ]
+        ],
+        "query": "person starts to close the box.",
+        "vid": "T5SI3.mp4"
+    },
+    "832": {
+        "timestamp": [
+            [
+                0.5,
+                2.3
+            ]
+        ],
+        "query": "person closes the fridge door.",
+        "vid": "H5CJD.mp4"
+    },
+    "1236": {
+        "timestamp": [
+            [
+                0.4,
+                1.4
+            ]
+        ],
+        "query": "person walk over to a cabinet take a towel out.",
+        "vid": "ZZ3HT.mp4"
+    },
+    "247": {
+        "timestamp": [
+            [
+                0.0,
+                10.0
+            ]
+        ],
+        "query": "person removes a snack to eat.",
+        "vid": "EEVD3.mp4"
+    },
+    "3329": {
+        "timestamp": [
+            [
+                18.3,
+                20.0
+            ]
+        ],
+        "query": "person he moves to a china cabinet to open it.",
+        "vid": "WM2J7.mp4"
+    },
+    "1443": {
+        "timestamp": [
+            [
+                0.0,
+                22.0
+            ]
+        ],
+        "query": "person close the open door to their right.",
+        "vid": "81R72.mp4"
+    },
+    "2188": {
+        "timestamp": [
+            [
+                0.0,
+                25.0
+            ]
+        ],
+        "query": "person runs back to sit down.",
+        "vid": "XSVLL.mp4"
+    },
+    "626": {
+        "timestamp": [
+            [
+                2.8,
+                10.9
+            ]
+        ],
+        "query": "a person takes off their shoes.",
+        "vid": "7ZL8E.mp4"
+    },
+    "2046": {
+        "timestamp": [
+            [
+                0.0,
+                6.0
+            ]
+        ],
+        "query": "person closes the box.",
+        "vid": "PGPSJ.mp4"
+    },
+    "3167": {
+        "timestamp": [
+            [
+                0.0,
+                20.0
+            ]
+        ],
+        "query": "a person is sitting in a chair eating a sandwich.",
+        "vid": "4TX4N.mp4"
+    },
+    "2248": {
+        "timestamp": [
+            [
+                0.0,
+                5.0
+            ]
+        ],
+        "query": "a person walks into a house laughing.",
+        "vid": "RKJ0C.mp4"
+    },
+    "1935": {
+        "timestamp": [],
+        "query": "person holding a cellphone.",
+        "vid": "TS2DM.mp4"
+    },
+    "1367": {
+        "timestamp": [
+            [
+                0.0,
+                5.9
+            ]
+        ],
+        "query": "a person in their recreation room turns on the light.",
+        "vid": "ICOX1.mp4"
+    },
+    "568": {
+        "timestamp": [],
+        "query": "person eating something.",
+        "vid": "HHNTA.mp4"
+    },
+    "536": {
+        "timestamp": [],
+        "query": "person closes the cabinet.",
+        "vid": "PRTAJ.mp4"
+    },
+    "196": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person working on a laptop.",
+        "vid": "6IOV0.mp4"
+    },
+    "2557": {
+        "timestamp": [],
+        "query": "a person sitting on a bed takes off their shoes.",
+        "vid": "LBJ0W.mp4"
+    },
+    "676": {
+        "timestamp": [
+            [
+                1.0,
+                6.0
+            ]
+        ],
+        "query": "person put the plate on a table.",
+        "vid": "21WN7.mp4"
+    },
+    "593": {
+        "timestamp": [],
+        "query": "a person holds a picture.",
+        "vid": "MPHFU.mp4"
+    },
+    "3450": {
+        "timestamp": [
+            [
+                0.0,
+                9.4
+            ]
+        ],
+        "query": "person opens the door.",
+        "vid": "3CLVI.mp4"
+    },
+    "2236": {
+        "timestamp": [],
+        "query": "person sneezing several times.",
+        "vid": "GYVK9.mp4"
+    },
+    "285": {
+        "timestamp": [],
+        "query": "a person runs into the bedroom.",
+        "vid": "5B9XE.mp4"
+    },
+    "2923": {
+        "timestamp": [],
+        "query": "person fixes their hair.",
+        "vid": "2UQKZ.mp4"
+    },
+    "1332": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "the person is doing their homework as the person eats.",
+        "vid": "2KGV3.mp4"
+    },
+    "700": {
+        "timestamp": [
+            [
+                0.0,
+                34.0
+            ]
+        ],
+        "query": "person eating a snack.",
+        "vid": "3WMV4.mp4"
+    },
+    "6": {
+        "timestamp": [
+            [
+                0.0,
+                13.2
+            ]
+        ],
+        "query": "a person walks through the doorway.",
+        "vid": "VXJS4.mp4"
+    },
+    "2737": {
+        "timestamp": [
+            [
+                3.8,
+                7.5
+            ]
+        ],
+        "query": "person turns on the light.",
+        "vid": "JQRMQ.mp4"
+    },
+    "2763": {
+        "timestamp": [],
+        "query": "the person closes the door.",
+        "vid": "4BEZX.mp4"
+    },
+    "249": {
+        "timestamp": [
+            [
+                0.0,
+                13.4
+            ]
+        ],
+        "query": "person they begin eating the fruit.",
+        "vid": "EEVD3.mp4"
+    },
+    "2614": {
+        "timestamp": [],
+        "query": "person throwing their clothes on the sofa.",
+        "vid": "RNLTR.mp4"
+    },
+    "358": {
+        "timestamp": [],
+        "query": "person eats some food.",
+        "vid": "TJZ0P.mp4"
+    },
+    "3104": {
+        "timestamp": [],
+        "query": "person leave the closet turning the light off.",
+        "vid": "FAO7J.mp4"
+    },
+    "3244": {
+        "timestamp": [
+            [
+                0.6,
+                19.0
+            ]
+        ],
+        "query": "person start fixing the doorknob.",
+        "vid": "WXXYY.mp4"
+    },
+    "607": {
+        "timestamp": [],
+        "query": "person closes the door.",
+        "vid": "MBAA5.mp4"
+    },
+    "888": {
+        "timestamp": [],
+        "query": "person starts eating some food.",
+        "vid": "ICQUJ.mp4"
+    },
+    "163": {
+        "timestamp": [
+            [
+                0.0,
+                3.9
+            ]
+        ],
+        "query": "another person is throwing a pair of shoes.",
+        "vid": "EHS68.mp4"
+    },
+    "1772": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "the person is watching television.",
+        "vid": "L0QNM.mp4"
+    },
+    "1603": {
+        "timestamp": [
+            [
+                3.5,
+                8.2
+            ]
+        ],
+        "query": "person takes a cup.",
+        "vid": "4BIMI.mp4"
+    },
+    "3017": {
+        "timestamp": [],
+        "query": "a person runs into the laundry room.",
+        "vid": "6OQYV.mp4"
+    },
+    "1328": {
+        "timestamp": [],
+        "query": "person takes another bite of their food.",
+        "vid": "2KGV3.mp4"
+    },
+    "848": {
+        "timestamp": [],
+        "query": "person run out of the closet.",
+        "vid": "79VVK.mp4"
+    },
+    "3370": {
+        "timestamp": [
+            [
+                0.0,
+                2.6
+            ]
+        ],
+        "query": "a person is putting away cans of food.",
+        "vid": "PRH15.mp4"
+    },
+    "3665": {
+        "timestamp": [],
+        "query": "person eating an apple.",
+        "vid": "C6N6Y.mp4"
+    },
+    "1561": {
+        "timestamp": [],
+        "query": "person takes out the phone.",
+        "vid": "47RAA.mp4"
+    },
+    "1147": {
+        "timestamp": [],
+        "query": "person sitting on a chair watching television when suddenly rises.",
+        "vid": "TRHT1.mp4"
+    },
+    "2201": {
+        "timestamp": [],
+        "query": "person puts a camera into it.",
+        "vid": "TESF6.mp4"
+    },
+    "2588": {
+        "timestamp": [
+            [
+                11.3,
+                14.7
+            ]
+        ],
+        "query": "person sits on the bed.",
+        "vid": "RT1JY.mp4"
+    },
+    "1247": {
+        "timestamp": [],
+        "query": "person puts down the box.",
+        "vid": "S5KQ1.mp4"
+    },
+    "1728": {
+        "timestamp": [],
+        "query": "person pouring a glass of water from on the table.",
+        "vid": "OJYDD.mp4"
+    },
+    "1306": {
+        "timestamp": [],
+        "query": "one person puts a towel on their head.",
+        "vid": "3T785.mp4"
+    },
+    "2806": {
+        "timestamp": [
+            [
+                2.0,
+                4.0
+            ]
+        ],
+        "query": "person takes pictures of them-self on the steps.",
+        "vid": "O5V8D.mp4"
+    },
+    "2366": {
+        "timestamp": [
+            [
+                17.0,
+                22.0
+            ]
+        ],
+        "query": "person opened a book.",
+        "vid": "XEJ35.mp4"
+    },
+    "620": {
+        "timestamp": [
+            [
+                0.0,
+                3.0
+            ]
+        ],
+        "query": "person laughs at cellphone.",
+        "vid": "N0NLE.mp4"
+    },
+    "3435": {
+        "timestamp": [],
+        "query": "person they throw the book.",
+        "vid": "1VRH1.mp4"
+    },
+    "2181": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "a person is cooking some food on the stove.",
+        "vid": "ZZ4GP.mp4"
+    },
+    "380": {
+        "timestamp": [],
+        "query": "a person runs into the bedroom.",
+        "vid": "RQRRD.mp4"
+    },
+    "3608": {
+        "timestamp": [
+            [
+                12.1,
+                20.0
+            ]
+        ],
+        "query": "person turns the lights off.",
+        "vid": "6JLD4.mp4"
+    },
+    "1066": {
+        "timestamp": [
+            [
+                14.2,
+                18.2
+            ]
+        ],
+        "query": "person decides to throw the towel on the floor.",
+        "vid": "QSVXJ.mp4"
+    },
+    "1138": {
+        "timestamp": [],
+        "query": "person eating some cookies out of a box.",
+        "vid": "N86ED.mp4"
+    },
+    "1680": {
+        "timestamp": [
+            [
+                0.0,
+                0.8
+            ]
+        ],
+        "query": "person walk through a open doorway.",
+        "vid": "GN0M8.mp4"
+    },
+    "1638": {
+        "timestamp": [],
+        "query": "person putting a bag on the shelf.",
+        "vid": "QUAFE.mp4"
+    },
+    "2314": {
+        "timestamp": [
+            [
+                5.8,
+                13.5
+            ]
+        ],
+        "query": "a person awakens on the floor of their recreation room.",
+        "vid": "V7YEJ.mp4"
+    },
+    "3624": {
+        "timestamp": [
+            [
+                8.8,
+                10.7
+            ]
+        ],
+        "query": "the person closes the refrigerator door when they are done.",
+        "vid": "SKZUG.mp4"
+    },
+    "2153": {
+        "timestamp": [
+            [
+                0.0,
+                20.8
+            ]
+        ],
+        "query": "person walks into a room to sit on the couch.",
+        "vid": "4PEL7.mp4"
+    },
+    "465": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person laughs as they lean against the dresser.",
+        "vid": "AX46Z.mp4"
+    },
+    "2873": {
+        "timestamp": [],
+        "query": "the person begins to put clothes on.",
+        "vid": "LRDW5.mp4"
+    },
+    "1537": {
+        "timestamp": [
+            [
+                3.9,
+                11.9
+            ]
+        ],
+        "query": "a person is also dressing.",
+        "vid": "HXUI5.mp4"
+    },
+    "1123": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "a person turns on the light.",
+        "vid": "0SFYS.mp4"
+    },
+    "876": {
+        "timestamp": [],
+        "query": "person closes a door outside.",
+        "vid": "VJ0LT.mp4"
+    },
+    "1218": {
+        "timestamp": [],
+        "query": "person lies down on the bed.",
+        "vid": "E002I.mp4"
+    },
+    "2933": {
+        "timestamp": [
+            [
+                0.0,
+                0.7
+            ]
+        ],
+        "query": "person closes the cabinet door.",
+        "vid": "NQMMJ.mp4"
+    },
+    "3428": {
+        "timestamp": [],
+        "query": "a person is standing in the door way sneezing.",
+        "vid": "75F82.mp4"
+    },
+    "3642": {
+        "timestamp": [
+            [
+                14.3,
+                21.3
+            ]
+        ],
+        "query": "a person throws a book into a box.",
+        "vid": "9O0NP.mp4"
+    },
+    "1631": {
+        "timestamp": [],
+        "query": "a person runs up stairs.",
+        "vid": "9ZE0J.mp4"
+    },
+    "215": {
+        "timestamp": [
+            [
+                0.0,
+                10.0
+            ]
+        ],
+        "query": "closes the doors.the person takes the food.",
+        "vid": "U2AO1.mp4"
+    },
+    "3607": {
+        "timestamp": [],
+        "query": "person turns on the lights.",
+        "vid": "6JLD4.mp4"
+    },
+    "3418": {
+        "timestamp": [
+            [
+                0.0,
+                4.1
+            ]
+        ],
+        "query": "a person runs through the doorway.",
+        "vid": "STHIK.mp4"
+    },
+    "1804": {
+        "timestamp": [
+            [
+                13.6,
+                14.0
+            ]
+        ],
+        "query": "person eating a sandwich.",
+        "vid": "JS3TB.mp4"
+    },
+    "952": {
+        "timestamp": [],
+        "query": "another person is fixing a doorknob.",
+        "vid": "K7NRW.mp4"
+    },
+    "3182": {
+        "timestamp": [
+            [
+                0.0,
+                30.0
+            ]
+        ],
+        "query": "person leaves the closet holding the bag.",
+        "vid": "RON2M.mp4"
+    },
+    "2009": {
+        "timestamp": [],
+        "query": "person opens the refrigerator.",
+        "vid": "NL9AW.mp4"
+    },
+    "677": {
+        "timestamp": [],
+        "query": "a person sitting in a chair eating something.",
+        "vid": "21WN7.mp4"
+    },
+    "1558": {
+        "timestamp": [],
+        "query": "a person is eating on the bed.",
+        "vid": "JEB7V.mp4"
+    },
+    "1261": {
+        "timestamp": [
+            [
+                0.0,
+                20.0
+            ]
+        ],
+        "query": "person they sit down holding a laptop.",
+        "vid": "DLOS7.mp4"
+    },
+    "10": {
+        "timestamp": [],
+        "query": "person runs up the stairs.",
+        "vid": "KVXJ9.mp4"
+    },
+    "300": {
+        "timestamp": [
+            [
+                1.3,
+                2.8
+            ]
+        ],
+        "query": "person turns on the light.",
+        "vid": "OTIA2.mp4"
+    },
+    "1966": {
+        "timestamp": [],
+        "query": "a person turns on the light in a closet.",
+        "vid": "CLB72.mp4"
+    },
+    "1617": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person stand up.",
+        "vid": "2ZICJ.mp4"
+    },
+    "1222": {
+        "timestamp": [],
+        "query": "a person is dressing by the bed.",
+        "vid": "5GHV3.mp4"
+    },
+    "1756": {
+        "timestamp": [],
+        "query": "person they put a flash light into it.",
+        "vid": "HI75B.mp4"
+    },
+    "2796": {
+        "timestamp": [],
+        "query": "person putting on a dress shirt.",
+        "vid": "UKSCV.mp4"
+    },
+    "3390": {
+        "timestamp": [],
+        "query": "a person is laughing.",
+        "vid": "3JCEI.mp4"
+    },
+    "1964": {
+        "timestamp": [
+            [
+                6.8,
+                20.3
+            ]
+        ],
+        "query": "person takes a pillow out of the box.",
+        "vid": "CLB72.mp4"
+    },
+    "3583": {
+        "timestamp": [],
+        "query": "person throws the box on the floor.",
+        "vid": "SPF63.mp4"
+    },
+    "1640": {
+        "timestamp": [],
+        "query": "a person is washing clothes.",
+        "vid": "QUAFE.mp4"
+    },
+    "2573": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "a person puts something on a shelf.",
+        "vid": "MZZ8Q.mp4"
+    },
+    "1957": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person turning on a light.",
+        "vid": "Q5MDU.mp4"
+    },
+    "3561": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "a person puts some clothes into a cabinet.",
+        "vid": "R5O7F.mp4"
+    },
+    "1152": {
+        "timestamp": [],
+        "query": "a person opens a door.",
+        "vid": "8RU1Q.mp4"
+    },
+    "2422": {
+        "timestamp": [
+            [
+                1.9,
+                25.5
+            ]
+        ],
+        "query": "person they are  dressing themselves in a wardrobe closet.",
+        "vid": "DR7K0.mp4"
+    },
+    "1513": {
+        "timestamp": [
+            [
+                12.0,
+                15.3
+            ]
+        ],
+        "query": "a person is sitting on a chair.",
+        "vid": "E89S9.mp4"
+    },
+    "2683": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person they open the door.",
+        "vid": "1BGZ0.mp4"
+    },
+    "2459": {
+        "timestamp": [
+            [
+                0.0,
+                10.0
+            ]
+        ],
+        "query": "the person throws their clothes onto the shelf.",
+        "vid": "OK45U.mp4"
+    },
+    "1419": {
+        "timestamp": [],
+        "query": "person opening a cabinet.",
+        "vid": "P6JGZ.mp4"
+    },
+    "844": {
+        "timestamp": [],
+        "query": "person continuing to drink from the bottle.",
+        "vid": "IONV9.mp4"
+    },
+    "692": {
+        "timestamp": [
+            [
+                1.3,
+                10.2
+            ]
+        ],
+        "query": "person fixes their hair.",
+        "vid": "RPY8D.mp4"
+    },
+    "2125": {
+        "timestamp": [],
+        "query": "person takes a drink out of the glass.",
+        "vid": "X37P1.mp4"
+    },
+    "2326": {
+        "timestamp": [
+            [
+                0.0,
+                40.0
+            ]
+        ],
+        "query": "person sits on stairs to put on shoes.",
+        "vid": "OWRDE.mp4"
+    },
+    "1873": {
+        "timestamp": [
+            [
+                19.0,
+                29.0
+            ]
+        ],
+        "query": "person takes something out box.",
+        "vid": "XRG9K.mp4"
+    },
+    "3292": {
+        "timestamp": [],
+        "query": "person runs in.",
+        "vid": "72M7T.mp4"
+    },
+    "3483": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "a person lying down awakens in the basement.",
+        "vid": "QZ1BS.mp4"
+    },
+    "1943": {
+        "timestamp": [],
+        "query": "a person is standing in their entryway undressing.",
+        "vid": "OY3LS.mp4"
+    },
+    "2702": {
+        "timestamp": [],
+        "query": "person takes pills out of a bottle.",
+        "vid": "2AIP4.mp4"
+    },
+    "115": {
+        "timestamp": [
+            [
+                0.0,
+                5.0
+            ]
+        ],
+        "query": "person puts a cup in the sink.",
+        "vid": "XE19C.mp4"
+    },
+    "3282": {
+        "timestamp": [],
+        "query": "the person puts down the laptop.",
+        "vid": "6FJBD.mp4"
+    },
+    "3258": {
+        "timestamp": [],
+        "query": "person takes a laptop from the shelf.",
+        "vid": "0F7LW.mp4"
+    },
+    "2971": {
+        "timestamp": [],
+        "query": "person stand in the doorway undressing.",
+        "vid": "1W6ZK.mp4"
+    },
+    "1916": {
+        "timestamp": [],
+        "query": "person eats some chips at a small table.",
+        "vid": "OTUV7.mp4"
+    },
+    "2706": {
+        "timestamp": [
+            [
+                1.0,
+                2.0
+            ]
+        ],
+        "query": "the person throws a sweater on the floor.",
+        "vid": "3MX8V.mp4"
+    },
+    "3274": {
+        "timestamp": [],
+        "query": "person takes out some food.",
+        "vid": "4RT06.mp4"
+    },
+    "424": {
+        "timestamp": [],
+        "query": "person eats it from a plate.",
+        "vid": "69R8T.mp4"
+    },
+    "110": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "a man is sitting at a chair.",
+        "vid": "XMYXI.mp4"
+    },
+    "1501": {
+        "timestamp": [],
+        "query": "person put down broom.",
+        "vid": "JT537.mp4"
+    },
+    "3252": {
+        "timestamp": [],
+        "query": "person opens a closet door.",
+        "vid": "0F7LW.mp4"
+    },
+    "1948": {
+        "timestamp": [],
+        "query": "person opened the laptop.",
+        "vid": "OY3LS.mp4"
+    },
+    "267": {
+        "timestamp": [],
+        "query": "a person is tidying a blanket.",
+        "vid": "A3XXB.mp4"
+    },
+    "573": {
+        "timestamp": [
+            [
+                0.1,
+                0.9
+            ]
+        ],
+        "query": "the person takes off their hoodie/sweater.",
+        "vid": "HHNTA.mp4"
+    },
+    "2408": {
+        "timestamp": [],
+        "query": "a person puts a pillow into a box.",
+        "vid": "H411A.mp4"
+    },
+    "1358": {
+        "timestamp": [
+            [
+                0.6,
+                0.8
+            ]
+        ],
+        "query": "person they begin smiling.",
+        "vid": "DV6CH.mp4"
+    },
+    "1429": {
+        "timestamp": [],
+        "query": "the person opens the door at the top.",
+        "vid": "J1KLV.mp4"
+    },
+    "3086": {
+        "timestamp": [],
+        "query": "the person closes the cabinet.",
+        "vid": "48XER.mp4"
+    },
+    "3084": {
+        "timestamp": [],
+        "query": "the person takes a blanket from the cabinet.",
+        "vid": "QBUAT.mp4"
+    },
+    "1186": {
+        "timestamp": [
+            [
+                0.0,
+                2.3
+            ]
+        ],
+        "query": "person puts some paper inside.",
+        "vid": "X4BQG.mp4"
+    },
+    "1223": {
+        "timestamp": [],
+        "query": "person eating an occasional bite from the pan.",
+        "vid": "TDGNE.mp4"
+    },
+    "2791": {
+        "timestamp": [],
+        "query": "person puts on their shoes.",
+        "vid": "00T1E.mp4"
+    },
+    "2810": {
+        "timestamp": [
+            [
+                0.0,
+                1.7
+            ]
+        ],
+        "query": "person they open a laptop.",
+        "vid": "ME4YL.mp4"
+    },
+    "2388": {
+        "timestamp": [],
+        "query": "person start pouring themselves a glass of water.",
+        "vid": "DWH0T.mp4"
+    },
+    "1354": {
+        "timestamp": [],
+        "query": "person turns off the light again.",
+        "vid": "GT43R.mp4"
+    },
+    "2305": {
+        "timestamp": [],
+        "query": "a person turns the light on.",
+        "vid": "GV0L7.mp4"
+    },
+    "1203": {
+        "timestamp": [
+            [
+                18.8,
+                20.8
+            ]
+        ],
+        "query": "one person opens a bag on a small desk.",
+        "vid": "4YBN9.mp4"
+    },
+    "2304": {
+        "timestamp": [],
+        "query": "person sits down on the bed to fix his shoes.",
+        "vid": "RBQ9Y.mp4"
+    },
+    "796": {
+        "timestamp": [],
+        "query": "a person is throwing a book to another person.",
+        "vid": "87Y64.mp4"
+    },
+    "2085": {
+        "timestamp": [],
+        "query": "person pours some milk into the glass.",
+        "vid": "C10FA.mp4"
+    },
+    "3335": {
+        "timestamp": [
+            [
+                1.0,
+                1.3
+            ]
+        ],
+        "query": "a person runs to the open window.",
+        "vid": "UEVVN.mp4"
+    },
+    "3070": {
+        "timestamp": [],
+        "query": "a smiling person runs into their garage holding a phone.",
+        "vid": "V6H2O.mp4"
+    },
+    "1142": {
+        "timestamp": [],
+        "query": "person drinks out of a glass.",
+        "vid": "KGO3W.mp4"
+    },
+    "296": {
+        "timestamp": [
+            [
+                30.9,
+                37.5
+            ]
+        ],
+        "query": "a person is standing in their garage holding a pillow.",
+        "vid": "5CN21.mp4"
+    },
+    "2187": {
+        "timestamp": [],
+        "query": "person runs to a table.",
+        "vid": "XSVLL.mp4"
+    },
+    "2840": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person takes a phone.",
+        "vid": "QFL2O.mp4"
+    },
+    "2466": {
+        "timestamp": [
+            [
+                0.0,
+                25.5
+            ]
+        ],
+        "query": "person drinks out of a glass.",
+        "vid": "28BVI.mp4"
+    },
+    "835": {
+        "timestamp": [],
+        "query": "person turn off a light.",
+        "vid": "F5UVQ.mp4"
+    },
+    "1391": {
+        "timestamp": [],
+        "query": "person she takes her phone from a drawer.",
+        "vid": "YE6UZ.mp4"
+    },
+    "2090": {
+        "timestamp": [
+            [
+                20.8,
+                23.2
+            ]
+        ],
+        "query": "the person puts the water down on the table.",
+        "vid": "PXY5Q.mp4"
+    },
+    "1369": {
+        "timestamp": [],
+        "query": "person turns the light on.",
+        "vid": "ICOX1.mp4"
+    },
+    "1315": {
+        "timestamp": [
+            [
+                0.0,
+                6.4
+            ]
+        ],
+        "query": "person they both run in the house very quickly.",
+        "vid": "8V8HC.mp4"
+    },
+    "1876": {
+        "timestamp": [
+            [
+                0.0,
+                20.0
+            ]
+        ],
+        "query": "one person opens a box.",
+        "vid": "XRG9K.mp4"
+    },
+    "1095": {
+        "timestamp": [],
+        "query": "person cooking something in the pan.",
+        "vid": "I6TPS.mp4"
+    },
+    "347": {
+        "timestamp": [],
+        "query": "person talking a towel off the shelf.",
+        "vid": "NO1GJ.mp4"
+    },
+    "3111": {
+        "timestamp": [],
+        "query": "the person is sitting at the table.",
+        "vid": "LPKPO.mp4"
+    },
+    "2159": {
+        "timestamp": [
+            [
+                0.0,
+                5.0
+            ]
+        ],
+        "query": "person holding the phone.",
+        "vid": "MZ3X9.mp4"
+    },
+    "2413": {
+        "timestamp": [],
+        "query": "person eating a sandwich.",
+        "vid": "UQJ5W.mp4"
+    },
+    "2386": {
+        "timestamp": [
+            [
+                20.8,
+                28.4
+            ]
+        ],
+        "query": "a person fixing a light.",
+        "vid": "31YNM.mp4"
+    },
+    "2245": {
+        "timestamp": [],
+        "query": "person drink out of the glass.",
+        "vid": "MTOFZ.mp4"
+    },
+    "3579": {
+        "timestamp": [],
+        "query": "person open a box of dishes.",
+        "vid": "2OJY8.mp4"
+    },
+    "1004": {
+        "timestamp": [],
+        "query": "person laughs to themselves multiple times.",
+        "vid": "B6XQZ.mp4"
+    },
+    "1053": {
+        "timestamp": [],
+        "query": "person a clicks a nearby light on.",
+        "vid": "5HPZ1.mp4"
+    },
+    "1523": {
+        "timestamp": [],
+        "query": "person opens a door.",
+        "vid": "0KZYF.mp4"
+    },
+    "561": {
+        "timestamp": [],
+        "query": "the person takes off a pair of shoes.",
+        "vid": "9RRED.mp4"
+    },
+    "116": {
+        "timestamp": [
+            [
+                20.8,
+                36.0
+            ]
+        ],
+        "query": "person closes the door.",
+        "vid": "XE19C.mp4"
+    },
+    "1616": {
+        "timestamp": [],
+        "query": "person opens a refrigerator door.",
+        "vid": "2ZICJ.mp4"
+    },
+    "153": {
+        "timestamp": [
+            [
+                20.8,
+                25.0
+            ]
+        ],
+        "query": "a person is sitting on a bed.",
+        "vid": "AK2KG.mp4"
+    },
+    "2722": {
+        "timestamp": [
+            [
+                25.0,
+                31.0
+            ]
+        ],
+        "query": "the person closes the door.",
+        "vid": "0O6RK.mp4"
+    },
+    "180": {
+        "timestamp": [
+            [
+                10.6,
+                23.7
+            ]
+        ],
+        "query": "the person eats a few bite.",
+        "vid": "UM5II.mp4"
+    },
+    "854": {
+        "timestamp": [
+            [
+                0.0,
+                20.8
+            ]
+        ],
+        "query": "the person washes their hands at the kitchen sink.",
+        "vid": "C46TD.mp4"
+    },
+    "2730": {
+        "timestamp": [],
+        "query": "a smiling person snuggles a blanket on their bed.",
+        "vid": "02SKC.mp4"
+    },
+    "3558": {
+        "timestamp": [],
+        "query": "person start dressing with different clothes.",
+        "vid": "R5O7F.mp4"
+    },
+    "1282": {
+        "timestamp": [
+            [
+                1.0,
+                2.2
+            ]
+        ],
+        "query": "one person is sitting on the sofa.",
+        "vid": "OQSXX.mp4"
+    },
+    "2112": {
+        "timestamp": [],
+        "query": "a person is tidying some books on the table.",
+        "vid": "E0OJ8.mp4"
+    },
+    "3664": {
+        "timestamp": [],
+        "query": "person drinking from a cup walking around.",
+        "vid": "VRXQX.mp4"
+    },
+    "1779": {
+        "timestamp": [],
+        "query": "a person is opening a door holding groceries.",
+        "vid": "I75CL.mp4"
+    },
+    "2110": {
+        "timestamp": [],
+        "query": "person put the bag on top of a table.",
+        "vid": "LSH63.mp4"
+    },
+    "282": {
+        "timestamp": [],
+        "query": "person turns the light off.",
+        "vid": "5B9XE.mp4"
+    },
+    "3351": {
+        "timestamp": [],
+        "query": "a person runs into their home office.",
+        "vid": "TYWHY.mp4"
+    },
+    "1249": {
+        "timestamp": [],
+        "query": "person began getting dressed.",
+        "vid": "YIIFF.mp4"
+    },
+    "1070": {
+        "timestamp": [
+            [
+                11.3,
+                12.5
+            ]
+        ],
+        "query": "person run out of the room.",
+        "vid": "MHAGN.mp4"
+    },
+    "2859": {
+        "timestamp": [],
+        "query": "laughing a person holding a bag with medicine.",
+        "vid": "4A28I.mp4"
+    },
+    "1988": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person turns off the light.",
+        "vid": "W3NN2.mp4"
+    },
+    "2374": {
+        "timestamp": [],
+        "query": "person drinking from a cup of coffee.",
+        "vid": "HUWAZ.mp4"
+    },
+    "899": {
+        "timestamp": [],
+        "query": "person eats it.",
+        "vid": "AFCDN.mp4"
+    },
+    "1424": {
+        "timestamp": [
+            [
+                0.0,
+                4.0
+            ]
+        ],
+        "query": "a person laughs to themselves.",
+        "vid": "KO2MY.mp4"
+    },
+    "2065": {
+        "timestamp": [
+            [
+                16.5,
+                28.5
+            ]
+        ],
+        "query": "person walking out the doorway.",
+        "vid": "GMPHO.mp4"
+    },
+    "339": {
+        "timestamp": [],
+        "query": "person drinking from a glass of water.",
+        "vid": "BI4KK.mp4"
+    },
+    "2675": {
+        "timestamp": [
+            [
+                0.0,
+                35.0
+            ]
+        ],
+        "query": "person takes a sandwich from a plate.",
+        "vid": "98W87.mp4"
+    },
+    "74": {
+        "timestamp": [
+            [
+                20.8,
+                21.0
+            ]
+        ],
+        "query": "a person walks through the house holding a bag.",
+        "vid": "V2GC9.mp4"
+    },
+    "3419": {
+        "timestamp": [],
+        "query": "person appearing to be eating it.",
+        "vid": "STHIK.mp4"
+    },
+    "3531": {
+        "timestamp": [],
+        "query": "person he drinks from a cup in his hand.",
+        "vid": "SSPMK.mp4"
+    },
+    "1356": {
+        "timestamp": [
+            [
+                1.0,
+                2.0
+            ]
+        ],
+        "query": "the person turns on a light.",
+        "vid": "GT43R.mp4"
+    },
+    "2310": {
+        "timestamp": [],
+        "query": "person they begin drinking a glass of water.",
+        "vid": "ABPGE.mp4"
+    },
+    "940": {
+        "timestamp": [
+            [
+                0.0,
+                20.8
+            ]
+        ],
+        "query": "person runs out of the couch.",
+        "vid": "LZ2Y4.mp4"
+    },
+    "665": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "a person is fixing the light near the stairs.",
+        "vid": "DR1ZU.mp4"
+    },
+    "3413": {
+        "timestamp": [],
+        "query": "person opens door.",
+        "vid": "C1DK7.mp4"
+    },
+    "2045": {
+        "timestamp": [],
+        "query": "person puts down the box.",
+        "vid": "PGPSJ.mp4"
+    },
+    "2805": {
+        "timestamp": [],
+        "query": "a person closes a cabinet door.",
+        "vid": "3XL0K.mp4"
+    },
+    "2767": {
+        "timestamp": [
+            [
+                20.8,
+                21.5
+            ]
+        ],
+        "query": "a person opens the door outside.",
+        "vid": "4BEZX.mp4"
+    },
+    "3383": {
+        "timestamp": [
+            [
+                0.0,
+                10.0
+            ]
+        ],
+        "query": "a person takes a box off some stairs.",
+        "vid": "OE243.mp4"
+    },
+    "2180": {
+        "timestamp": [
+            [
+                30.0,
+                35.3
+            ]
+        ],
+        "query": "a person is standing at a stove cooking.",
+        "vid": "ZZ4GP.mp4"
+    },
+    "2550": {
+        "timestamp": [],
+        "query": "person turns off the light.",
+        "vid": "8N4O9.mp4"
+    },
+    "2538": {
+        "timestamp": [
+            [
+                0.0,
+                30.0
+            ]
+        ],
+        "query": "person they wash the glass.",
+        "vid": "TIWRY.mp4"
+    },
+    "279": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "the person drinks from a cup of coffee.",
+        "vid": "RXELU.mp4"
+    },
+    "596": {
+        "timestamp": [],
+        "query": "a person opens a door.",
+        "vid": "TUJF4.mp4"
+    },
+    "2176": {
+        "timestamp": [],
+        "query": "the person closed the entry door.",
+        "vid": "USNON.mp4"
+    },
+    "996": {
+        "timestamp": [
+            [
+                4.0,
+                6.0
+            ]
+        ],
+        "query": "a person sits down on a bed.",
+        "vid": "W7EDM.mp4"
+    },
+    "2820": {
+        "timestamp": [
+            [
+                0.0,
+                20.8
+            ]
+        ],
+        "query": "a person puts a container on a top shelf.",
+        "vid": "65UVU.mp4"
+    },
+    "672": {
+        "timestamp": [],
+        "query": "person closing the door next to their bed.",
+        "vid": "J6JNK.mp4"
+    },
+    "2074": {
+        "timestamp": [
+            [
+                0.0,
+                13.0
+            ]
+        ],
+        "query": "person drinks from a bottle.",
+        "vid": "JFBTV.mp4"
+    },
+    "3090": {
+        "timestamp": [],
+        "query": "a person takes a towel.",
+        "vid": "KK7D4.mp4"
+    },
+    "2068": {
+        "timestamp": [
+            [
+                18.0,
+                20.8
+            ]
+        ],
+        "query": "a person runs through the doorway.",
+        "vid": "21O5C.mp4"
+    },
+    "2831": {
+        "timestamp": [],
+        "query": "person sneezing on a shelf in the pantry.",
+        "vid": "HDHGT.mp4"
+    },
+    "3168": {
+        "timestamp": [],
+        "query": "a person is awakening in the bed.",
+        "vid": "4TX4N.mp4"
+    },
+    "1610": {
+        "timestamp": [],
+        "query": "the person is also tidying up the closet.",
+        "vid": "0Z1PC.mp4"
+    },
+    "1337": {
+        "timestamp": [],
+        "query": "person pours some into a glass.",
+        "vid": "D0AGO.mp4"
+    },
+    "528": {
+        "timestamp": [
+            [
+                0.0,
+                30.0
+            ]
+        ],
+        "query": "person switch the light off.",
+        "vid": "IQA16.mp4"
+    },
+    "2900": {
+        "timestamp": [
+            [
+                26.6,
+                28.0
+            ]
+        ],
+        "query": "person drinking the entire cup.",
+        "vid": "UD0P0.mp4"
+    },
+    "2300": {
+        "timestamp": [],
+        "query": "person put on some shoes.",
+        "vid": "RBQ9Y.mp4"
+    },
+    "2319": {
+        "timestamp": [],
+        "query": "person looking out window.",
+        "vid": "DUSJO.mp4"
+    },
+    "2191": {
+        "timestamp": [],
+        "query": "a person runs around the room.",
+        "vid": "XSVLL.mp4"
+    },
+    "2499": {
+        "timestamp": [],
+        "query": "a person walks through a doorway into a room.",
+        "vid": "6XB10.mp4"
+    },
+    "2454": {
+        "timestamp": [],
+        "query": "person the other takes a picture with their camera.",
+        "vid": "IAHN3.mp4"
+    },
+    "1828": {
+        "timestamp": [
+            [
+                0.0,
+                2.3
+            ]
+        ],
+        "query": "a person awakens.",
+        "vid": "O3HV7.mp4"
+    },
+    "167": {
+        "timestamp": [
+            [
+                8.0,
+                34.2
+            ]
+        ],
+        "query": "the person takes a large blanket.",
+        "vid": "G30NS.mp4"
+    },
+    "1522": {
+        "timestamp": [
+            [
+                0.0,
+                13.9
+            ]
+        ],
+        "query": "the person starts smiling.",
+        "vid": "0KZYF.mp4"
+    },
+    "281": {
+        "timestamp": [],
+        "query": "person turns off the ceiling light.",
+        "vid": "5B9XE.mp4"
+    },
+    "1511": {
+        "timestamp": [],
+        "query": "a person is running in place under a doorway.",
+        "vid": "WP5RH.mp4"
+    },
+    "3124": {
+        "timestamp": [],
+        "query": "a person takes a pillow from the shelf.",
+        "vid": "JKGTN.mp4"
+    },
+    "2768": {
+        "timestamp": [
+            [
+                0.0,
+                5.0
+            ]
+        ],
+        "query": "there is a person cooking something on the stove.",
+        "vid": "VNUPE.mp4"
+    },
+    "1672": {
+        "timestamp": [],
+        "query": "person finally eating a sandwich in a living room.",
+        "vid": "AEKYE.mp4"
+    },
+    "182": {
+        "timestamp": [
+            [
+                20.2,
+                21.2
+            ]
+        ],
+        "query": "person starts sneezing.",
+        "vid": "UM5II.mp4"
+    },
+    "2474": {
+        "timestamp": [],
+        "query": "a young person turns on the lights.",
+        "vid": "U5RYN.mp4"
+    },
+    "2506": {
+        "timestamp": [
+            [
+                20.3,
+                21.0
+            ]
+        ],
+        "query": "person stand in the doorway eating something.",
+        "vid": "F66WG.mp4"
+    },
+    "290": {
+        "timestamp": [],
+        "query": "person eating a sandwich.",
+        "vid": "VAV4C.mp4"
+    },
+    "1286": {
+        "timestamp": [],
+        "query": "person open up the books.",
+        "vid": "ZXHCH.mp4"
+    },
+    "933": {
+        "timestamp": [
+            [
+                20.8,
+                21.1
+            ]
+        ],
+        "query": "person put something in it closes the door.",
+        "vid": "1FIGA.mp4"
+    },
+    "3698": {
+        "timestamp": [],
+        "query": "person eat something they took out of their pocket.",
+        "vid": "FJYZH.mp4"
+    },
+    "811": {
+        "timestamp": [
+            [
+                14.0,
+                21.6
+            ]
+        ],
+        "query": "person grab a pillow to snuggle with.",
+        "vid": "AAQHJ.mp4"
+    },
+    "3700": {
+        "timestamp": [
+            [
+                8.0,
+                16.6
+            ]
+        ],
+        "query": "person put the book down on a chair.",
+        "vid": "FJYZH.mp4"
+    },
+    "2135": {
+        "timestamp": [
+            [
+                0.1,
+                0.6
+            ]
+        ],
+        "query": "person cooks some food on the stove.",
+        "vid": "3QL7J.mp4"
+    },
+    "2822": {
+        "timestamp": [],
+        "query": "person tilt their head back in laughter.",
+        "vid": "JZ45I.mp4"
+    },
+    "3580": {
+        "timestamp": [
+            [
+                16.5,
+                25.0
+            ]
+        ],
+        "query": "person begins to put dishes in a box.",
+        "vid": "2OJY8.mp4"
+    },
+    "1555": {
+        "timestamp": [],
+        "query": "person starts eating.",
+        "vid": "JEB7V.mp4"
+    },
+    "2415": {
+        "timestamp": [],
+        "query": "person opens the window inside the shower.",
+        "vid": "UQJ5W.mp4"
+    },
+    "2018": {
+        "timestamp": [
+            [
+                0.8,
+                1.9
+            ]
+        ],
+        "query": "this person drinks from a cup.",
+        "vid": "4K0BP.mp4"
+    },
+    "214": {
+        "timestamp": [
+            [
+                23.0,
+                23.3
+            ]
+        ],
+        "query": "person takes a drink from a glass.",
+        "vid": "3UACJ.mp4"
+    },
+    "122": {
+        "timestamp": [
+            [
+                0.0,
+                0.8
+            ]
+        ],
+        "query": "person close the closet door.",
+        "vid": "WKPQ3.mp4"
+    },
+    "1835": {
+        "timestamp": [],
+        "query": "a person throws a blanket on the floor.",
+        "vid": "7O6FK.mp4"
+    },
+    "328": {
+        "timestamp": [
+            [
+                0.0,
+                2.5
+            ]
+        ],
+        "query": "the person puts the phone away.",
+        "vid": "95GB4.mp4"
+    },
+    "1200": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "the person takes a towel from the cabinet.",
+        "vid": "5EEXF.mp4"
+    },
+    "3526": {
+        "timestamp": [
+            [
+                37.0,
+                43.0
+            ]
+        ],
+        "query": "person turns on the light.",
+        "vid": "0M0T4.mp4"
+    },
+    "1393": {
+        "timestamp": [],
+        "query": "person holding a pair of shoes.",
+        "vid": "LSCMZ.mp4"
+    },
+    "605": {
+        "timestamp": [],
+        "query": "person opens a closet door.",
+        "vid": "MBAA5.mp4"
+    },
+    "1991": {
+        "timestamp": [
+            [
+                15.4,
+                18.6
+            ]
+        ],
+        "query": "this person puts their shoes.",
+        "vid": "QMHK8.mp4"
+    },
+    "2772": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "person takes their head off a pillow.",
+        "vid": "VZE8E.mp4"
+    },
+    "3092": {
+        "timestamp": [],
+        "query": "a person puts a broom down.",
+        "vid": "3LIGG.mp4"
+    },
+    "2665": {
+        "timestamp": [
+            [
+                0.0,
+                33.6
+            ]
+        ],
+        "query": "person take a bite of a sandwich.",
+        "vid": "OKHVL.mp4"
+    },
+    "991": {
+        "timestamp": [
+            [
+                0.0,
+                10.4
+            ]
+        ],
+        "query": "person puts the book down.",
+        "vid": "TKAUR.mp4"
+    },
+    "3710": {
+        "timestamp": [],
+        "query": "person opening a box.",
+        "vid": "4KK20.mp4"
+    },
+    "3257": {
+        "timestamp": [
+            [
+                13.4,
+                18.4
+            ]
+        ],
+        "query": "a person runs into the closet.",
+        "vid": "0F7LW.mp4"
+    },
+    "3021": {
+        "timestamp": [],
+        "query": "a person is undressing under a blanket.",
+        "vid": "CEZ4D.mp4"
+    },
+    "1460": {
+        "timestamp": [],
+        "query": "a person is sneezing into a book.",
+        "vid": "2FPB3.mp4"
+    },
+    "3410": {
+        "timestamp": [
+            [
+                20.8,
+                23.6
+            ]
+        ],
+        "query": "person looks out window.",
+        "vid": "5P284.mp4"
+    },
+    "1521": {
+        "timestamp": [
+            [
+                0.0,
+                10.9
+            ]
+        ],
+        "query": "a person walks in holding dishes.",
+        "vid": "0KZYF.mp4"
+    },
+    "1699": {
+        "timestamp": [],
+        "query": "a person is cooking at a stove.",
+        "vid": "FDDDG.mp4"
+    },
+    "712": {
+        "timestamp": [
+            [
+                2.4,
+                6.0
+            ]
+        ],
+        "query": "a person opens a door.",
+        "vid": "W8CWW.mp4"
+    },
+    "305": {
+        "timestamp": [
+            [
+                0.0,
+                4.7
+            ]
+        ],
+        "query": "person begins to eat from a bowl on the floor.",
+        "vid": "86E2E.mp4"
+    },
+    "2619": {
+        "timestamp": [
+            [
+                0.0,
+                12.5
+            ]
+        ],
+        "query": "person turns on the light.",
+        "vid": "G6ZOB.mp4"
+    },
+    "72": {
+        "timestamp": [],
+        "query": "person putting groceries away.",
+        "vid": "V2GC9.mp4"
+    },
+    "869": {
+        "timestamp": [
+            [
+                20.8,
+                30.0
+            ]
+        ],
+        "query": "the person puts the sandwich into the refrigerator.",
+        "vid": "3N1I2.mp4"
+    },
+    "3175": {
+        "timestamp": [],
+        "query": "a person is smiling.",
+        "vid": "O8T6G.mp4"
+    },
+    "804": {
+        "timestamp": [
+            [
+                10.2,
+                17.7
+            ]
+        ],
+        "query": "a person goes running by.",
+        "vid": "JR6VG.mp4"
+    },
+    "2478": {
+        "timestamp": [
+            [
+                0.0,
+                0.018
+            ]
+        ],
+        "query": "person opens closet door.",
+        "vid": "DUZDL.mp4"
+    },
+    "2541": {
+        "timestamp": [
+            [
+                0.0,
+                20.8
+            ]
+        ],
+        "query": "a person opens a small cabinet door.",
+        "vid": "Y8L60.mp4"
+    },
+    "2242": {
+        "timestamp": [],
+        "query": "person takes a selfie picture.",
+        "vid": "AFIRW.mp4"
+    },
+    "2992": {
+        "timestamp": [
+            [
+                0.0,
+                2.0
+            ]
+        ],
+        "query": "a person is running towards a chair.",
+        "vid": "I7GZI.mp4"
+    },
+    "579": {
+        "timestamp": [],
+        "query": "person eat it.",
+        "vid": "318CP.mp4"
+    },
+    "2055": {
+        "timestamp": [],
+        "query": "person puts it into a bag.",
+        "vid": "R1KMF.mp4"
+    },
+    "542": {
+        "timestamp": [],
+        "query": "person drinking from a cup.",
+        "vid": "7NXWU.mp4"
+    },
+    "2761": {
+        "timestamp": [],
+        "query": "a person opens the door.",
+        "vid": "4BEZX.mp4"
+    },
+    "1043": {
+        "timestamp": [],
+        "query": "a person closes their laptops lid.",
+        "vid": "Y2MGC.mp4"
+    },
+    "2667": {
+        "timestamp": [],
+        "query": "person proceeds to open the refrigerator.",
+        "vid": "J2XFQ.mp4"
+    },
+    "3044": {
+        "timestamp": [
+            [
+                0.0,
+                20.2
+            ]
+        ],
+        "query": "person they put their laptop next to the sink.",
+        "vid": "LCA0Q.mp4"
+    },
+    "202": {
+        "timestamp": [
+            [
+                0.0,
+                0.9
+            ]
+        ],
+        "query": "a person is awakening.",
+        "vid": "DCV2M.mp4"
+    }
+}
