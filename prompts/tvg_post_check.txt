@@ -1,0 +1,1 @@
+Be careful about your output format, you should provide start time and end time for the visual event. The format should be: 'The event happens in the start time - end time'. For example, The event 'person turn a light on' happens in the 24.3 - 30.4 seonds.

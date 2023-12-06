@@ -1,0 +1,1 @@
+Be careful about your output format, you should provide start time and end time for each step. The format should be: 'start time - end time, brief step description', for example, ' 90 - 102 seconds, spread margarine on two slices of white bread'.

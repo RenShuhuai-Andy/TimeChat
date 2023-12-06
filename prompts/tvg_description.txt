@@ -1,0 +1,1 @@
+Localize the visual content described by the given textual query {} in the video, and output the start and end timestamps in seconds. The output format of the predicted timestamp should be like: 'start - end seconds'. A specific example is : 20.8 - 30.0 seconds' . 
