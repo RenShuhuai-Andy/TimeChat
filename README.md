@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-<a target="_blank"><img src="figs/logo.png" alt="TimeChat" style="width: 50%; min-width: 150px; display: block; margin: auto;"></a>
+<a target="_blank"><img src="figs/logo.png" alt="TimeChat" style="width: 40%; min-width: 150px; display: block; margin: auto;"></a>
 </p>
 
 
@@ -12,7 +12,7 @@
 </div>
 
 ## News
-- [23.12.06] I am attending in EMNLP'23 and NeurIPS'23. I will take the time to continue to clean up the code and upload the ckpts & datasets. The open source will take one to two weeks, stay tuned please.
+- [23.12.06] I am attending EMNLP'23 and NeurIPS'23. I will take the time to continue to clean up the code and upload the ckpts & datasets. The open source will take one to two weeks, stay tuned please.
 - [23.12.06] Release the initial version of **TimeChat**. 
 
 <p align="center" width="100%">
