@@ -1,0 +1,6 @@
+datasets:
+  charades_instruct:
+    data_type: video
+    build_info:
+      anno_dir: "data/Charades/instruct_tvg_12.4k_charades.json"
+      videos_dir: "data/"

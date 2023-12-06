@@ -1,0 +1,6 @@
+datasets:
+  time_instruct:
+    data_type: video
+    build_info:
+      anno_dir: "data/instructions/instruct_time-sensitive_73k.json"
+      videos_dir: "data/"

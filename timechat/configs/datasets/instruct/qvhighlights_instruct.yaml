@@ -1,0 +1,6 @@
+datasets:
+  qvhighlights_instruct:
+    data_type: video
+    build_info:
+      anno_dir: "data/QVhighlights/instruct_vhd_6.9k_qvhighlights.json"
+      videos_dir: "data/"

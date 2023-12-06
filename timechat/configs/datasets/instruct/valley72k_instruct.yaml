@@ -1,0 +1,6 @@
+datasets:
+  valley72k_instruct:
+    data_type: video
+    build_info:
+      anno_dir: "data/YouCook2-BB/YouCook2_asr_denseCap/valley_instruct_72k.json"
+      videos_dir: "data/"
