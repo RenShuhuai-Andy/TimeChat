@@ -108,6 +108,7 @@ coming soon
 ### Data
 For now, the fine-tuning dataset consists of:
 * 104K time-sensitive instructions that our collected (coming soon)
+  * see [DATA.md](./docs/DATA.md)
 * 73K video-based instructions from Valley [[link](https://huggingface.co/datasets/luoruipu1/Valley-Instruct-73k)]
 
 ### Script
