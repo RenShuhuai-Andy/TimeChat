@@ -95,7 +95,7 @@ ckpt/
     |-- VL_LLaMA_2_7B_Finetuned.pth
 |–– instruct-blip/
     |-- instruct_blip_vicuna7b_trimmed.pth
-|–– blip2/
+|–– eva-vit-g/
     |-- eva_vit_g.pth
 ```
 

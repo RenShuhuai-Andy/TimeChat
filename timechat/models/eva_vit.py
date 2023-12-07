@@ -36,7 +36,7 @@ class DropPath(nn.Module):
 
     def forward(self, x):
         return drop_path(x, self.drop_prob, self.training)
-    
+
     def extra_repr(self) -> str:
         return 'p={}'.format(self.drop_prob)
 
@@ -138,7 +138,7 @@ class Attention(nn.Module):
 
         if rel_pos_bias is not None:
             attn = attn + rel_pos_bias
-        
+
         attn = attn.softmax(dim=-1)
         attn = self.attn_drop(attn)
 
@@ -272,7 +272,7 @@ class VisionTransformer(nn.Module):
         else:
             self.rel_pos_bias = None
         self.use_checkpoint = use_checkpoint
-        
+
         dpr = [x.item() for x in torch.linspace(0, drop_path_rate, depth)]  # stochastic depth decay rule
         self.use_rel_pos_bias = use_rel_pos_bias
         self.blocks = nn.ModuleList([
@@ -368,8 +368,8 @@ class VisionTransformer(nn.Module):
             features.append(x)
 
         return features
-    
-    
+
+
 def interpolate_pos_embed(model, checkpoint_model):
     if 'pos_embed' in checkpoint_model:
         pos_embed_checkpoint = checkpoint_model['pos_embed'].float()
@@ -392,8 +392,8 @@ def interpolate_pos_embed(model, checkpoint_model):
             pos_tokens = pos_tokens.permute(0, 2, 3, 1).flatten(1, 2)
             new_pos_embed = torch.cat((extra_tokens, pos_tokens), dim=1)
             checkpoint_model['pos_embed'] = new_pos_embed
-            
-            
+
+
 def convert_weights_to_fp16(model: nn.Module):
     """Convert applicable model parameters to fp16"""
 
@@ -410,8 +410,8 @@ def convert_weights_to_fp16(model: nn.Module):
 #                     tensor.data = tensor.data.half()
 
     model.apply(_convert_weights_to_fp16)
-    
-    
+
+
 def create_eva_vit_g(img_size=224,drop_path_rate=0.4,use_checkpoint=False,precision="fp16"):
     model = VisionTransformer(
         img_size=img_size,
@@ -425,18 +425,18 @@ def create_eva_vit_g(img_size=224,drop_path_rate=0.4,use_checkpoint=False,precis
         drop_path_rate=drop_path_rate,
         norm_layer=partial(nn.LayerNorm, eps=1e-6),
         use_checkpoint=use_checkpoint,
-    )  
+    )
     # url = "https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/eva_vit_g.pth"
     # cached_file = download_cached_file(
     #     url, check_hash=False, progress=True
     # )
-    cached_file = "ckpt/blip2/eva_vit_g.pth"
-    state_dict = torch.load(cached_file, map_location="cpu")    
+    cached_file = "ckpt/eva-vit-g/eva_vit_g.pth"
+    state_dict = torch.load(cached_file, map_location="cpu")
     interpolate_pos_embed(model,state_dict)
-    
+
     incompatible_keys = model.load_state_dict(state_dict, strict=False)
 #     print(incompatible_keys)
-    
+
     if precision == "fp16":
 #         model.to("cuda") 
         convert_weights_to_fp16(model)
