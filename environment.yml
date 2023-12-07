@@ -76,7 +76,6 @@ dependencies:
   - sqlite=3.41.2=h5eee18b_0
   - stack_data=0.2.0=pyhd3eb1b0_0
   - tk=8.6.12=h1ccaba5_0
-  - torchaudio=0.12.1=py39_cu113
   - tornado=6.3.3=py39h5eee18b_0
   - typing_extensions=4.7.1=py39h06a4308_0
   - urllib3=1.26.16=py39h06a4308_0
@@ -269,8 +268,6 @@ dependencies:
       - tokenizers==0.14.1
       - tomli==2.0.1
       - toolz==0.12.0
-      - torch==1.12.1+cu113
-      - torchvision==0.13.1+cu113
       - tqdm==4.64.1
       - traitlets==5.11.2
       - transformers==4.34.0
