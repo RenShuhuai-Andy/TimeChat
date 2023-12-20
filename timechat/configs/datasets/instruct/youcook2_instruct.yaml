@@ -2,5 +2,5 @@ datasets:
   youcook2_instruct:
     data_type: video
     build_info:
-      anno_dir: "data/YouCook2-BB/YouCook2_asr_denseCap/instruct_1.2k_dvc_youcook2.json"
+      anno_dir: "data/YouCook2-BB/YouCook2_asr_denseCap/instruct_dvc_1.2k_youcook2.json"
       videos_dir: "data/YouCook2-BB/"

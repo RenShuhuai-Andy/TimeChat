@@ -12,7 +12,7 @@ data/
         |-- youcook2_6fps_224/
             |-- psVc_8RL1ow.mp4
             |-- ...
-        |-- instruct_1.2k_dvc_youcook2.json
+        |-- instruct_dvc_1.2k_youcook2.json
 |–– Charades/
     |-- videos/
         |-- FIAJP.mp4
