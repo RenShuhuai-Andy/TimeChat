@@ -86,6 +86,30 @@ if __name__ == "__main__":
                 instruction = random.choice(prompts)
                 QA.append({"q": instruction.rstrip(), "a": cap_with_tsmp.rstrip()})
                 it_data.append({"video": vid, "QA": QA})
+        elif dataset == "hirest":
+            filename = f"{split}.json"
+            annos = read_json(os.path.join(args.anno_path, filename))
+            it_data = []
+            for jterm in annos:
+                vid = os.path.join(base_video_path, jterm["image_id"])
+                # check wether the video exists
+                if not os.path.exists(os.path.join(video_root, vid)):
+                    print("video {} not exists!".format(os.path.join(video_root, vid)))
+                    continue
+                segments = jterm["segments"]  # a list
+                labels = jterm["labels"]
+                sent_with_tsmp = []
+                for i, sent in enumerate(labels):
+                    sent = filter_sent(sent)
+                    if not sent:
+                        continue
+                    new_sent = f'{round(float(segments[i][0]), 1)} - {round(float(segments[i][1]), 1)} seconds, {sent}. '
+                    sent_with_tsmp.append(new_sent)
+                cap_with_tsmp = " ".join(sent_with_tsmp)
+                QA = []
+                instruction = random.choice(prompts)
+                QA.append({"q": instruction.rstrip(), "a": cap_with_tsmp.rstrip()})
+                it_data.append({"video": vid, "QA": QA})
         else:
             print("Do not support this dataset!")
             exit(0)
