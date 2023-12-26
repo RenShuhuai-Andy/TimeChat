@@ -226,7 +226,7 @@ if __name__ == "__main__":
                         # start time equals to end time
                         answer = f'The given query happens in {round(float(segments[si][0]), 1)} seconds.'
                         # filter out those prompts that contain 'start' and 'end'
-                        prompt = random.choice(filter(lambda x: 'end' not in x, prompts))
+                        prompt = random.choice(list(filter(lambda x: 'end' not in x, prompts)))
                     else:
                         answer = f'The given query happens in {round(float(segments[si][0]), 1)} - {round(float(segments[si][1]), 1)} seconds.'
                         prompt = random.choice(prompts)
@@ -263,4 +263,4 @@ if __name__ == "__main__":
         print(f"==> {args.dataset} dataset  \t# examples num: {len(it_data)}")
         out_name = "instruct_tvg_{}k_{}.json".format(round(len(it_data) / 1000, 1), args.dataset)
         Path(args.outpath).mkdir(parents=True, exist_ok=True)
-        # write_json(it_data, os.path.join(args.outpath, out_name))
+        write_json(it_data, os.path.join(args.outpath, out_name))
