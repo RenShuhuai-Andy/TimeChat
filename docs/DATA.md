@@ -1,6 +1,6 @@
-## Download
+# Download
 
-### Video & Annotations
+## Video & Annotations
 - YouCook2: http://youcook2.eecs.umich.edu/download
 - Charades-STA: https://github.com/jiyanggao/TALL#charades-sta-anno-download
 - QVHighlight: https://github.com/jayleicn/moment_detr/blob/main/data/README.md
@@ -14,7 +14,29 @@
 - COIN: https://github.com/coin-dataset/annotations
 - YT-Temporal: https://rowanzellers.com/merlot/#data
 
-### Instruction data
+### Compressing Videos
+We preprocess videos to lower FPS and dimension to reduce storage and to improve data loading. For videos, you may use
+```bash
+ls -U /path/to/raw/video >> /path/to/video_names.txt
+
+# for YouCook2
+python utils/compress_video_data.py \
+--input_root=/path/to/raw/videos/ \
+--output_root=data/YouCook2-BB/YouCook2_asr_denseCap/youcook2_6fps_224/ \
+--input_file_list_path=/path/to/video_names.txt \
+--fps=6 --size=224 --file_type=video --num_workers 24
+
+# for ActivityNet Captions
+python utils/compress_video_data.py \
+--input_root=/path/to/raw/videos/ \
+--output_root=data/Activitynet_Captions/anet_6fps_224 \
+--input_file_list_path=/path/to/video_names.txt \
+--fps=6 --size=224 --file_type=video --num_workers 24
+```
+
+Note that the audio is also removed from the video files.
+
+## Instruction data
 - TimeIT: https://huggingface.co/datasets/ShuhuaiRen/TimeIT
 - Valley: https://huggingface.co/datasets/luoruipu1/Valley-Instruct-73k
 
@@ -112,6 +134,6 @@ data/
         |-- ...
 ```
 
-## Processed Custom Data
+### Processed Custom Data
 1. If you want to construct instruction-tuning datasets by yourself, you can refer to the processing files under `utils/construct_it_data`.
 2. If you want to use a subset of the TimeIT dataset, or incorporate more datasets, you can modify `file_to_merge` in `utils/construct_timeit_data/merge.py` and rerun it.
