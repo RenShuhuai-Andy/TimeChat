@@ -9,9 +9,11 @@
 
 <div style='display:flex; gap: 0.25rem; '>
 <a href='https://arxiv.org/abs/2312.02051'><img src='https://img.shields.io/badge/Paper-PDF-red'></a>
+<a href='https://huggingface.co/datasets/ShuhuaiRen/TimeIT'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue'></a> 
 </div>
 
 ## News
+- [23.12.27] Release the instruction-tuning dataset of **[TimeIT](https://huggingface.co/datasets/ShuhuaiRen/TimeIT)**. 
 - [23.12.06] I am attending EMNLP'23 and NeurIPS'23. I will take the time to continue to clean up the code and upload the ckpts & datasets. The open source will take one to two weeks, stay tuned please.
 - [23.12.06] Release the initial version of **TimeChat**. 
 
@@ -107,17 +109,17 @@ coming soon
 
 ### Data
 For now, the fine-tuning dataset consists of:
-* 104K time-sensitive instructions that our collected (coming soon)
+* 104K time-sensitive instructions that our collected [[link](https://huggingface.co/datasets/ShuhuaiRen/TimeIT)]
   * see [DATA.md](./docs/DATA.md)
 * 73K video-based instructions from Valley [[link](https://huggingface.co/datasets/luoruipu1/Valley-Instruct-73k)]
 
 ### Script
 
 #### Tuning
-Config the checkpoint and dataset paths in [stage2_finetune_time104k_asr_valley72k.yaml](./train_configs/stage2_finetune_time104k_asr_valley72k.yaml).
+Config the checkpoint and dataset paths in [stage2_finetune_time104k_valley72k.yaml](./train_configs/stage2_finetune_time104k_valley72k.yaml).
 ```
 conda activate timechat
-torchrun --nproc_per_node=8 train.py --cfg-path  train_configs/stage2_finetune_time104k_asr_valley72k.yaml
+torchrun --nproc_per_node=8 train.py --cfg-path  train_configs/stage2_finetune_time104k_valley72k.yaml
 ```
 
 #### Evaluation
@@ -150,11 +152,12 @@ Our TimeChat is just a research preview intended for non-commercial use only. Yo
 ## Citation
 If you find our project useful, hope you can star our repo and cite our paper as follows:
 ```
-@inproceedings{Ren2023TimeChat,
+@article{Ren2023TimeChat,
   title={TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding},
   author={Shuhuai Ren and Linli Yao and Shicheng Li and Xu Sun and Lu Hou},
+  journal={ArXiv},
   year={2023},
-  journal={arXiv preprint arXiv:2312.02051},
+  volume={abs/2312.02051},
 }
 ```
 
