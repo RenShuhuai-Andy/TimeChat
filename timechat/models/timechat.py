@@ -48,7 +48,7 @@ class TimeChat(Blip2Base):
 
     def __init__(
             self,
-            vit_model="eva_clip_g",
+            vit_model="https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/eva_vit_g.pth",
             q_former_model="https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained_flant5xxl.pth",
             img_size=224,
             drop_path_rate=0,
@@ -510,7 +510,8 @@ class TimeChat(Blip2Base):
 
     @classmethod
     def from_config(cls, cfg):
-        vit_model = cfg.get("vit_model", "eva_clip_g")
+        vit_model = cfg.get("vit_model",
+                            "https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/eva_vit_g.pth")
         q_former_model = cfg.get("q_former_model",
                                  "https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained_flant5xxl.pth")
         img_size = cfg.get("image_size")

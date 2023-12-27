@@ -8,6 +8,7 @@ model:
   # Q-Former
   num_query_token: 32
 
+  vit_model: "ckpt/eva-vit-g/eva_vit_g.pth"
   llama_model: "ckpt/Video-LLaMA-2-7B-Finetuned/llama-2-7b-chat-hf/"
   q_former_model: "ckpt/instruct-blip/instruct_blip_vicuna7b_trimmed.pth"
   ckpt: "ckpt/Video-LLaMA-2-7B-Finetuned/VL_LLaMA_2_7B_Finetuned.pth"

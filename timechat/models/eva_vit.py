@@ -7,14 +7,14 @@
 # --------------------------------------------------------'
 import math
 from functools import partial
-
+import os
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.utils.checkpoint as checkpoint
 from timm.models.layers import drop_path, to_2tuple, trunc_normal_
 from timm.models.registry import register_model
-
+from timechat.common.utils import is_url
 from timechat.common.dist_utils import download_cached_file
 
 def _cfg(url='', **kwargs):
@@ -412,7 +412,9 @@ def convert_weights_to_fp16(model: nn.Module):
     model.apply(_convert_weights_to_fp16)
 
 
-def create_eva_vit_g(img_size=224,drop_path_rate=0.4,use_checkpoint=False,precision="fp16"):
+def create_eva_vit_g(
+        url_or_filename="https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/eva_vit_g.pth",
+        img_size=224, drop_path_rate=0.4, use_checkpoint=False, precision="fp16"):
     model = VisionTransformer(
         img_size=img_size,
         patch_size=14,
@@ -426,11 +428,14 @@ def create_eva_vit_g(img_size=224,drop_path_rate=0.4,use_checkpoint=False,precis
         norm_layer=partial(nn.LayerNorm, eps=1e-6),
         use_checkpoint=use_checkpoint,
     )
-    # url = "https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/eva_vit_g.pth"
-    # cached_file = download_cached_file(
-    #     url, check_hash=False, progress=True
-    # )
-    cached_file = "ckpt/eva-vit-g/eva_vit_g.pth"
+    if is_url(url_or_filename):
+        cached_file = download_cached_file(
+            url, check_hash=False, progress=True
+        )
+    elif os.path.isfile(url_or_filename):
+        cached_file = url_or_filename
+    else:
+        raise RuntimeError("checkpoint url or path is invalid")
     state_dict = torch.load(cached_file, map_location="cpu")
     interpolate_pos_embed(model,state_dict)
 
@@ -438,6 +443,6 @@ def create_eva_vit_g(img_size=224,drop_path_rate=0.4,use_checkpoint=False,precis
 #     print(incompatible_keys)
 
     if precision == "fp16":
-#         model.to("cuda") 
+        # model.to("cuda")
         convert_weights_to_fp16(model)
     return model
