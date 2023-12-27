@@ -1,0 +1,46 @@
+model:
+  arch: timechat
+  model_type: pretrain_llama_v2
+  freeze_vit: True
+  freeze_qformer: True
+  max_txt_len: 2048
+  end_sym: "</s>"
+  low_resource: False
+
+  frozen_llama_proj: False
+
+  llama_model: "ckpt/Video-LLaMA-2-7B-Finetuned/llama-2-7b-chat-hf/"
+  q_former_model: "ckpt/instruct-blip/instruct_blip_vicuna7b_trimmed.pth"
+  ckpt: "ckpt/timechat/train_stage2_llama2_7b_time104k_valley72k_bz32_f96_epoch3_open_i_instruct_qformer_lora_bind_time_ws32_mfp96_mtl2048_asr/20231109161/checkpoint_2.pth"
+
+  fusion_head_layers: 2
+  max_frame_pos: 96
+  fusion_header_type: "seqTransf"
+
+  use_grad_checkpoint: True
+  lora: True
+  lora_inference_mode: True
+  qformer_text_input: True
+  window_size: 32
+  stride: 16
+
+datasets:
+  webvid:
+    vis_processor:
+      train:
+        name: "alpro_video_eval"
+        n_frms: 96
+        image_size: 224
+    text_processor:
+      train:
+        name: "blip_caption"
+    num_video_query_token: 32
+    tokenizer_name: "ckpt/Video-LLaMA-2-7B-Finetuned/llama-2-7b-chat-hf/"
+    model_type: "llama_v2"
+    num_frm: 96
+    sample_type: 'uniform'
+    max_txt_len: 2048
+    window_size: 32
+
+run:
+  task: video_text_pretrain
