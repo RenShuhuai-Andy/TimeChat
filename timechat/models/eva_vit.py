@@ -430,7 +430,7 @@ def create_eva_vit_g(
     )
     if is_url(url_or_filename):
         cached_file = download_cached_file(
-            url, check_hash=False, progress=True
+            url_or_filename, check_hash=False, progress=True
         )
     elif os.path.isfile(url_or_filename):
         cached_file = url_or_filename
