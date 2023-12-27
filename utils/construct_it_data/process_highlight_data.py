@@ -83,8 +83,10 @@ if __name__ == "__main__":
         },
     ]
     '''
-    prompts = list(get_prompt("prompts/highlight_prompts.json").values())
-
+    if args.dataset in ["qvhighlights"]:
+        prompts = list(get_prompt("prompts/highlight_prompts.json").values())
+    else:
+        prompts = list(get_prompt("prompts/video_summarize_prompts.json").values())
     video_root = "/home/yaolinli/dataset"
     base_video_path = args.video_path
     dataset = args.dataset
@@ -119,11 +121,43 @@ if __name__ == "__main__":
                 instruction = prompt.format(text_query)
                 QA.append({"q": instruction.rstrip(), "a": answer.rstrip()})
                 it_data.append({"video": vid, "QA": QA})
-        else:
-            print("Do not support this dataset!")
-            exit(0)
+
+        # for dataset SumMe and TVSum, we use all the data
+        if dataset in ["summe", "tvsum"]:
+            filename = f"all.caption_coco_format.json"
+            annos = read_json(os.path.join(args.anno_path, filename))
+            if args.ratio > 0:
+                annos = random.sample(annos, int(len(annos) * args.ratio))
+            it_data = []
+            for jterm in annos:
+                saliency_scores = jterm["scores"]
+                # convert score range from 0-1 to 1-5
+                saliency_scores = [s * 4 + 1 for s in saliency_scores]
+                timestamps = jterm["timestamps"]
+                assert len(saliency_scores) == len(timestamps)
+                vid = os.path.join(base_video_path, jterm["image_id"].split("/")[-1])
+                # check wether the video exists
+                if not os.path.exists(os.path.join(video_root, vid)):
+                    continue
+                # format the highlight detection answer
+                mnt = len(saliency_scores)
+                times = [str(round(t, 1)) for t in timestamps]
+                times_str = ", ".join(times)
+                scores = [str(round(s, 1)) for s in saliency_scores]
+                scores_str = ", ".join(scores)
+                answer = f'The highlight timestamps are in the {times_str} seconds. Their saliency scores are {scores_str}.'
+                QA = []
+                prompt = random.choice(prompts)
+                prompt = prompt.replace("<query_placeholder>", "")
+                prompt = prompt.replace("<dataset_placeholder>", "{}")
+                instruction = prompt.format(dataset)
+                QA.append({"q": instruction.rstrip(), "a": answer.rstrip()})
+                it_data.append({"video": vid, "QA": QA})
 
         print(f"==> {args.dataset} dataset  \t# examples num: {len(it_data)}")
-        out_name = "instruct_vhd_{}k_{}.json".format(round(len(it_data) / 1000, 1), args.dataset)
+        if dataset in ["summe", "tvsum"]:
+            out_name = "instruct_vhd_{}_{}.json".format(len(it_data), args.dataset)
+        else:
+            out_name = "instruct_vhd_{}k_{}.json".format(round(len(it_data) / 1000, 1), args.dataset)
         Path(args.outpath).mkdir(parents=True, exist_ok=True)
         write_json(it_data, os.path.join(args.outpath, out_name))
