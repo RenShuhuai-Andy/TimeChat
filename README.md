@@ -9,9 +9,11 @@
 
 <div style='display:flex; gap: 0.25rem; '>
 <a href='https://arxiv.org/abs/2312.02051'><img src='https://img.shields.io/badge/Paper-PDF-red'></a>
+<a href='https://huggingface.co/datasets/ShuhuaiRen/TimeIT'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue'></a> 
 </div>
 
 ## News
+- [23.12.27] Release the instruction-tuning dataset of **TimeIT**. 
 - [23.12.06] I am attending EMNLP'23 and NeurIPS'23. I will take the time to continue to clean up the code and upload the ckpts & datasets. The open source will take one to two weeks, stay tuned please.
 - [23.12.06] Release the initial version of **TimeChat**. 
 
@@ -107,17 +109,17 @@ coming soon
 
 ### Data
 For now, the fine-tuning dataset consists of:
-* 104K time-sensitive instructions that our collected (coming soon)
+* 104K time-sensitive instructions that our collected [[link](https://huggingface.co/datasets/ShuhuaiRen/TimeIT)]
   * see [DATA.md](./docs/DATA.md)
 * 73K video-based instructions from Valley [[link](https://huggingface.co/datasets/luoruipu1/Valley-Instruct-73k)]
 
 ### Script
 
 #### Tuning
-Config the checkpoint and dataset paths in [stage2_finetune_time104k_asr_valley72k.yaml](./train_configs/stage2_finetune_time104k_asr_valley72k.yaml).
+Config the checkpoint and dataset paths in [stage2_finetune_time104k_valley72k.yaml](./train_configs/stage2_finetune_time104k_valley72k.yaml).
 ```
 conda activate timechat
-torchrun --nproc_per_node=8 train.py --cfg-path  train_configs/stage2_finetune_time104k_asr_valley72k.yaml
+torchrun --nproc_per_node=8 train.py --cfg-path  train_configs/stage2_finetune_time104k_valley72k.yaml
 ```
 
 #### Evaluation

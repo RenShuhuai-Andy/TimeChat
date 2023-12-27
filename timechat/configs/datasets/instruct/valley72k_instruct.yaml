@@ -2,5 +2,5 @@ datasets:
   valley72k_instruct:
     data_type: video
     build_info:
-      anno_dir: "data/valley/valley_instruct_72k.json"
+      anno_dir: "data/valley/instruct_valley_72k.json"
       videos_dir: "data/"
