@@ -13,7 +13,7 @@
 </div>
 
 ## News
-- [23.12.27] Release the instruction-tuning dataset of **TimeIT**. 
+- [23.12.27] Release the instruction-tuning dataset of **[TimeIT](https://huggingface.co/datasets/ShuhuaiRen/TimeIT)**. 
 - [23.12.06] I am attending EMNLP'23 and NeurIPS'23. I will take the time to continue to clean up the code and upload the ckpts & datasets. The open source will take one to two weeks, stay tuned please.
 - [23.12.06] Release the initial version of **TimeChat**. 
 
@@ -152,11 +152,12 @@ Our TimeChat is just a research preview intended for non-commercial use only. Yo
 ## Citation
 If you find our project useful, hope you can star our repo and cite our paper as follows:
 ```
-@inproceedings{Ren2023TimeChat,
+@article{Ren2023TimeChat,
   title={TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding},
   author={Shuhuai Ren and Linli Yao and Shicheng Li and Xu Sun and Lu Hou},
+  journal={ArXiv},
   year={2023},
-  journal={arXiv preprint arXiv:2312.02051},
+  volume={abs/2312.02051},
 }
 ```
 
