@@ -137,3 +137,17 @@ data/
 ### Processed Custom Data
 1. If you want to construct instruction-tuning datasets by yourself, you can refer to the processing files under `utils/construct_it_data`.
 2. If you want to use a subset of the TimeIT dataset, or incorporate more datasets, you can modify `file_to_merge` in `utils/construct_timeit_data/merge.py` and rerun it.
+
+The datum schema should be like:
+```json
+{
+  "video": "ActivityNet_asr_denseCap/anet_6fps_224/v_MinmayCk2Nk.mp4", 
+  "QA": [
+    {
+      "q": "Capture and describe the activity events in the given video, specifying their respective time intervals, and outputting the time intervals in the 'start - end seconds format'.", 
+      "a": "0.0 - 9.1 seconds, We see a male gymnast prepare to use the pommel horse.  9.1 - 10.8 seconds, The man mounts the pommel horse and spins his legs around it.  29.9 - 35.2 seconds, The man does a handstand and dismounts.  35.7 - 38.6 seconds, The man takes a bow and starts walking away."
+    }
+  ], 
+  "source": "Activitynet_Captions"
+}
+```
