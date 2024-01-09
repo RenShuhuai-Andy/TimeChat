@@ -14,7 +14,7 @@
 </div>
 
 ## News
-- [24.01.09] Release the checkpoint of **[TimeChat-7b](https://huggingface.co/ShuhuaiRen/TimeChat-7b)**.
+- [24.01.09] Release **TimeChat-7b** [checkpoint](https://huggingface.co/ShuhuaiRen/TimeChat-7b) and [local demo](./demo.ipynb).
 - [23.12.27] Release the instruction-tuning dataset of **[TimeIT](https://huggingface.co/datasets/ShuhuaiRen/TimeIT)**.
 - [23.12.06] Release the initial version of **TimeChat**. 
 
@@ -49,7 +49,11 @@
 
 ## Fine-tuned Checkpoints
 
-coming soon
+The following checkpoints store learnable parameters (positional embedding layers, Time-aware Frame Encoder, Sliding Video Q-Former, linear projection layers, and lora) only.
+
+| Checkpoint              | Link                                                                            | Note                                                                                                                                                                                   |
+|:------------------------|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TimeChat-2-7B-Finetuned | [link](https://huggingface.co/ShuhuaiRen/TimeChat-7b/blob/main/timechat_7b.pth) | Fine-tuned on the instruction-tuning data from [TimeIT](https://huggingface.co/datasets/ShuhuaiRen/TimeIT) and [Valley](https://huggingface.co/datasets/luoruipu1/Valley-Instruct-73k) |
 
 
 ## Usage
@@ -90,8 +94,9 @@ git lfs install
 git clone https://huggingface.co/DAMO-NLP-SG/Video-LLaMA-2-7B-Finetuned
 ```
 
-#### Instruct-tuned TimeChat-7B
+#### Instruct-tuned [TimeChat-7B](https://huggingface.co/ShuhuaiRen/TimeChat-7b)
 ```bash
+git lfs install
 git clone https://huggingface.co/ShuhuaiRen/TimeChat-7b
 ```
 
@@ -111,15 +116,15 @@ ckpt/
 
 ## How to Run Demo Locally
 
-coming soon
+Please refer to our Jupyter Demo [here](./demo.ipynb).
 
 ## Instruction-Tuning
 
 ### Data
 For now, the fine-tuning dataset consists of:
-* 104K time-sensitive instructions that our collected [[link](https://huggingface.co/datasets/ShuhuaiRen/TimeIT)]
+* 104K time-sensitive instructions from **TimeIT** [[link](https://huggingface.co/datasets/ShuhuaiRen/TimeIT)]
   * see [DATA.md](./docs/DATA.md)
-* 73K video-based instructions from Valley [[link](https://huggingface.co/datasets/luoruipu1/Valley-Instruct-73k)]
+* 73K video-based instructions from **Valley** [[link](https://huggingface.co/datasets/luoruipu1/Valley-Instruct-73k)]
 
 ### Script
 
@@ -151,7 +156,7 @@ We are grateful for the following awesome projects our TimeChat arising from:
 * [EVA-CLIP](https://github.com/baaivision/EVA/tree/master/EVA-CLIP): Improved Training Techniques for CLIP at Scale
 * [LLaMA](https://github.com/facebookresearch/llama): Open and Efficient Foundation Language Models
 * [VideoChat](https://github.com/OpenGVLab/Ask-Anything): Chat-Centric Video Understanding
-* [LLaVA](https://github.com/haotian-liu/LLaVA): Large Language and Vision Assistant
+* [TESTA](https://github.com/RenShuhuai-Andy/TESTA): Temporal-Spatial Token Aggregation for Long-form Video-Language Understanding
 
 
 ## Term of Use
