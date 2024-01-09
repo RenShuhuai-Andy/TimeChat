@@ -765,8 +765,11 @@ if __name__ == '__main__':
     if args.analyze:
         # keys for results:
         # ['CIDER', 'METEOR', 'Precision@0.3', 'Recall@0.3', 'Precision@0.5', 'Recall@0.5', 'Precision@0.7', 'Recall@0.7', 'Precision@0.9', 'Recall@0.9', 'Precision_Mean', 'Recall_Mean', 'F1_Score', 'SODA_c_2', 'n_preds', 'key', 'SODA_c_1']
-        output_path = "score_" + args.pred_file.split("/")[-1]
-        output_path = os.path.join('cases/', output_path)
+        output_path = '/'.join(args.pred_file.split("/")[:-1])
+        if not os.path.exists(output_path):
+            os.makedirs(output_path)
+        output_file = "score_" + args.pred_file.split("/")[-1]
+        output_file = os.path.join(output_path, output_file)
         vids = results["key"]
         CIDEr = results["CIDER"]
         n_preds = results["n_preds"]
@@ -778,6 +781,6 @@ if __name__ == '__main__':
         good_cases = []
         for idx in idxs:
             good_cases.append(vids[idx] + "\tPrecision:" + str(round(P[idx]*100, 1)) + "\tRecall:" + str(round(R[idx]*100, 1)) + "\tF1_score:" + str(round(f1_score[idx]*100, 1)) + "\tCider: " + str(round(CIDEr[idx]*100, 1)) + "\tn_preds: " + str(round(n_preds[idx], 1)))
-        with open(output_path, "w") as f:
+        with open(output_file, "w") as f:
             f.write("\n".join(good_cases))
-        print(f"save sorted metrics for cases at \n {output_path}")
+        print(f"save sorted metrics for cases at \n {output_file}")
