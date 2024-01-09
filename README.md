@@ -2,10 +2,9 @@
 <a target="_blank"><img src="figs/logo.png" alt="TimeChat" style="width: 40%; min-width: 150px; display: block; margin: auto;"></a>
 </p>
 
+<h2 align="center"> <a href="https://arxiv.org/abs/2312.02051">TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding</a></h2>
 
-
-# TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding
-<!-- **TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding** -->
+<h4 align="center"> <a href="https://renshuhuai-andy.github.io/">Shuhuai Ren*</a>, <a href="https://yaolinli.github.io/">Linli Yao*</a>, <a href="https://lscpku.github.io/">Shicheng Li</a>, <a href="https://xusun26.github.io/">Xu Sun</a>, <a href="https://houlu369.github.io/">Lu Hou</a></h4>
 
 <div style='display:flex; gap: 0.25rem; '>
 <a href='https://arxiv.org/abs/2312.02051'><img src='https://img.shields.io/badge/Paper-PDF-red'></a>
@@ -14,8 +13,8 @@
 </div>
 
 ## News
-- [24.01.09] Release **TimeChat-7b** [checkpoint](https://huggingface.co/ShuhuaiRen/TimeChat-7b) and [local demo](./demo.ipynb).
-- [23.12.27] Release the instruction-tuning dataset of **[TimeIT](https://huggingface.co/datasets/ShuhuaiRen/TimeIT)**.
+- [24.01.09] Release **TimeChat-7b** 🤗 [checkpoint](https://huggingface.co/ShuhuaiRen/TimeChat-7b) and [local demo](./demo.ipynb).
+- [23.12.27] 🤗 Release the instruction-tuning dataset of **[TimeIT](https://huggingface.co/datasets/ShuhuaiRen/TimeIT)**.
 - [23.12.06] Release the initial version of **TimeChat**. 
 
 <p align="center" width="100%">
