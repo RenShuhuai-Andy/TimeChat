@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DIR="ckpt/timechat/train_stage2_llama2_7b_time73k_valley72k_bz32_f96_epoch3_open_i_instruct_qformer_lora_bind_time_ws32_mfp96_mtl2048/20231107115"
-MODEL_DIR=${DIR}/checkpoint_2.pth
+DIR="ckpt/timechat"
+MODEL_DIR=${DIR}/timechat_7b.pth
 
 TASK='dvc'
 ANNO_DIR='data/TimeIT/data/dense_video_captioning/youcook2'
