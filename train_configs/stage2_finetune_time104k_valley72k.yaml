@@ -40,7 +40,7 @@ datasets:
   time_instruct:
     data_type: video
     build_info:
-      anno_dir: "data/TimeIT/data/time/instruct_time-sensitive_104k.json"
+      anno_dir: "data/TimeIT/data/time/instruct_time-sensitive_104k_asr.json"
       videos_dir: "data/"
     vis_processor:
       train:
@@ -97,7 +97,7 @@ run:
   accum_grad_iters: 4
 
   seed: 42
-  output_dir: "ckpt/timechat/train_stage2_llama2_7b_time104k_valley72k_bz32_f96_epoch3_ws32_stride32_mfp96_mtl2048"
+  output_dir: "ckpt/timechat/train_stage2_llama2_7b_time104k_asr_valley72k_bz32_f96_epoch3_ws32_stride32_mfp96_mtl2048"
 
   amp: True
   resume_ckpt_path: null
