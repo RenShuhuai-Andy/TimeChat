@@ -7,12 +7,13 @@ model:
   end_sym: "</s>"
   low_resource: False
 
-  frozen_llama_proj: False
+  frozen_llama_proj: True
+  frozen_video_Qformer: True
 
   vit_model: "ckpt/eva-vit-g/eva_vit_g.pth"
   llama_model: "ckpt/Video-LLaMA-2-7B-Finetuned/llama-2-7b-chat-hf/"
   q_former_model: "ckpt/instruct-blip/instruct_blip_vicuna7b_trimmed.pth"
-  ckpt: "ckpt/timechat/train_stage2_llama2_7b_time104k_valley72k_bz32_f96_epoch3_open_i_instruct_qformer_lora_bind_time_ws32_mfp96_mtl2048_asr/20231109161/checkpoint_2.pth"
+  ckpt: "ckpt/timechat/timechat_7b.pth"
 
   fusion_head_layers: 2
   max_frame_pos: 96
@@ -23,7 +24,7 @@ model:
   lora_inference_mode: True
   qformer_text_input: True
   window_size: 32
-  stride: 16
+  stride: 32
 
 datasets:
   webvid:
@@ -41,7 +42,7 @@ datasets:
     num_frm: 96
     sample_type: 'uniform'
     max_txt_len: 2048
-    window_size: 32
+    stride: 32
 
 run:
   task: video_text_pretrain
