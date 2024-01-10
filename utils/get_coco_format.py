@@ -7,6 +7,26 @@ import numpy as np
 import random
 from pathlib import Path
 from tqdm import tqdm
+from decord import VideoReader
+import decord
+
+
+def pass_video_check(video_path):
+    # check if the video exists
+    if not os.path.exists(video_path):
+        print(f"==> {video_path} does not exist!")
+        return False
+    # check if the video is broken
+    try:
+        decord.bridge.set_bridge("torch")
+        vr = VideoReader(uri=video_path, height=224, width=224)
+        vlen = len(vr)
+        indices = np.arange(0, vlen).astype(int).tolist()
+        temp_frms = vr.get_batch(indices)
+        return True
+    except:
+        print(f"==> {video_path} is broken!")
+        return False
 
 
 # read json files
@@ -32,9 +52,9 @@ def write_json(data, path):
     return
 
 
-def read_txt(path):
+def read_txt(anno_path, video_path):
     data = []
-    with open(path, "r") as fin:
+    with open(anno_path, "r") as fin:
         lines = fin.readlines()
         for i, line in enumerate(lines):
             # e.g. AO8RW 0.0 6.9##a person is putting a book on a shelf.
@@ -44,6 +64,8 @@ def read_txt(path):
                 continue
             terms = line.split("##")[0].split(" ")
             vid = terms[0] + ".mp4"
+            if not pass_video_check(os.path.join(video_path, vid)):
+                continue
             start_time = float(terms[1])
             end_time = float(terms[2])
             data.append({"image_id": vid, "caption": cap, "timestamp": [start_time, end_time], "id": i})
@@ -55,7 +77,7 @@ def process_anet(annos, video_path):
     idx = 0
     for k, v in tqdm(annos.items()):
         vid = f'{k}.mp4'
-        if not os.path.exists(os.path.join(video_path, vid)):
+        if not pass_video_check(os.path.join(video_path, vid)):
             continue
         for timestamp, sentence in zip(v['timestamps'], v['sentences']):
             new_annos.append({"image_id": vid, "caption": sentence, "timestamp": timestamp, "id": idx})
@@ -73,11 +95,10 @@ def filter_sent(sent):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset', default='charades')  # anet
-    parser.add_argument('--anno_path', default='/home/yaolinli/dataset/Charades/charades_annotation/')
-    parser.add_argument('--video_path',
-                        default='/home/yaolinli/dataset/Charades/videos')  # ActivityNet_asr_denseCap/anet_6fps_224
-    parser.add_argument('--outpath', default='./')
+    parser.add_argument('--dataset', default='charades', choices=['charades', 'anet'], help='dataset name')
+    parser.add_argument('--anno_path', help='annotation path')
+    parser.add_argument('--video_path', help='video path')
+    parser.add_argument('--outpath', default='./', help='output path')
     args = parser.parse_args()
     '''output data example:
     {
@@ -92,10 +113,10 @@ if __name__ == "__main__":
     }
     '''
 
-    for split in ["train", "val", "test"]:
+    for split in ["test", "val", "train"]:
         if args.dataset == "charades":
             filename = f"charades_sta_{split}.txt"
-            annos = read_txt(os.path.join(args.anno_path, filename))
+            annos = read_txt(os.path.join(args.anno_path, filename), args.video_path)
             data = {}
             data["annotations"] = annos
         elif args.dataset == "anet":
