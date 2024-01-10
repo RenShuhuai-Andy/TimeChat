@@ -50,9 +50,9 @@
 
 The following checkpoints store learnable parameters (positional embedding layers, Time-aware Frame Encoder, Sliding Video Q-Former, linear projection layers, and lora) only.
 
-| Checkpoint              | Link                                                                            | Note                                                                                                                                                                                   |
-|:------------------------|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| TimeChat-2-7B-Finetuned | [link](https://huggingface.co/ShuhuaiRen/TimeChat-7b/blob/main/timechat_7b.pth) | Fine-tuned on the instruction-tuning data from [TimeIT](https://huggingface.co/datasets/ShuhuaiRen/TimeIT) and [Valley](https://huggingface.co/datasets/luoruipu1/Valley-Instruct-73k) |
+| Checkpoint              | LLM backbone | Link                                                                            | Note                                                                                                                                                                                                          |
+|:------------------------|--------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TimeChat-2-7B-Finetuned | LLaMA-2 7B   | [link](https://huggingface.co/ShuhuaiRen/TimeChat-7b/blob/main/timechat_7b.pth) | Fine-tuned on the instruction-tuning data from [TimeIT-104K](https://huggingface.co/datasets/ShuhuaiRen/TimeIT) (asr version) and [Valley-73K](https://huggingface.co/datasets/luoruipu1/Valley-Instruct-73k) |
 
 
 ## Usage
