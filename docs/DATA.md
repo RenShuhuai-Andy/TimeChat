@@ -134,7 +134,7 @@ data/
         |-- ...
 ```
 
-### Processed Custom Data
+### Process Custom Instruction-Tuning Data
 1. If you want to construct instruction-tuning datasets by yourself, you can refer to the processing files under `utils/construct_it_data`.
 2. If you want to use a subset of the TimeIT dataset, or incorporate more datasets, you can modify `file_to_merge` in `utils/construct_timeit_data/merge.py` and rerun it.
 
@@ -149,5 +149,28 @@ The datum schema should be like:
     }
   ], 
   "source": "Activitynet_Captions"
+}
+```
+
+### Process Custom Evaluation Data into COCO Format
+1. If you want to construct evaluation datasets by yourself and use our eval code, you need to transform data annotations into coco format. You can write processing code in `utils/get_coco_format.py`.
+
+The datum schema should be like:
+```json
+{
+    "annotations": 
+    [
+      {   
+        "image_id": "3MSZA.mp4", 
+        "caption": "person turn a light on.",
+        "timestamp": [24.3, 30.4]
+      },
+      {   
+        "image_id": "...", 
+        "caption": "...",
+        "timestamp": ...
+      },
+      ...
+    ]
 }
 ```

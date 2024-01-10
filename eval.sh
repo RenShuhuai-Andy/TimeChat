@@ -12,6 +12,14 @@ PROMPT_FILE="prompts/${TASK}_description_zeroshot.txt"
 GT_FILE="${ANNO_DIR}/${SPLIT}.caption_coco_format.json"
 ASR_DIR='data/YouCook2-BB/YouCook2_asr_denseCap/whisper_outputs_with_time/small.en.cleaned/'
 
+#TASK='dvc'
+#ANNO_DIR='data/TimeIT/data/dense_video_captioning/anet'
+#VIDEO_DIR='data/Activitynet_Captions/anet_6fps_224/'
+#DATASET='activitynet'
+#SPLIT='test'
+#PROMPT_FILE="prompts/${TASK}_description.txt"
+#GT_FILE="${ANNO_DIR}/${SPLIT}.caption_coco_format.json"
+
 #TASK='tvg'
 #ANNO_DIR='data/TimeIT/data/temporal_video_grounding/charades/charades_annotation'
 #VIDEO_DIR='data/Charades/videos/'
