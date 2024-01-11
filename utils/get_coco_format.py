@@ -52,7 +52,19 @@ def write_json(data, path):
     return
 
 
-def read_txt(anno_path, video_path):
+def process_charades_tvg(anno_path, video_path):
+    '''output data example:
+    {
+        "annotations": [
+        {
+            "image_id": "3MSZA.mp4",
+            "caption": "person turn a light on.",
+            "timestamp": [24.3, 30.4],
+        },
+        ...
+        ]
+    }
+    '''
     data = []
     with open(anno_path, "r") as fin:
         lines = fin.readlines()
@@ -72,16 +84,29 @@ def read_txt(anno_path, video_path):
     return data
 
 
-def process_anet(annos, video_path):
+def process_anet_dvc(annos, video_path):
+    '''output data example:
+        {
+            "annotations": [
+            {
+                "image_id": "3MSZA.mp4",
+                "duration": 206.86,
+                "segments": [[47, 60], [67, 89], [91, 98], [99, 137], [153, 162], [163, 185]],
+                "caption": "pick the ends off the verdalago. ...
+            },
+            ...
+            ]
+        }
+    '''
     new_annos = []
     idx = 0
     for k, v in tqdm(annos.items()):
         vid = f'{k}.mp4'
         if not pass_video_check(os.path.join(video_path, vid)):
             continue
-        for timestamp, sentence in zip(v['timestamps'], v['sentences']):
-            new_annos.append({"image_id": vid, "caption": sentence, "timestamp": timestamp, "id": idx})
-            idx += 1
+        new_annos.append({"image_id": vid, "caption": ''.join(v['sentences']), "segments": v['timestamps'],
+                          "duration": v['duration'], "id": idx})
+        idx += 1
     return new_annos
 
 
@@ -100,30 +125,18 @@ if __name__ == "__main__":
     parser.add_argument('--video_path', help='video path')
     parser.add_argument('--outpath', default='./', help='output path')
     args = parser.parse_args()
-    '''output data example:
-    {
-        "annotations": [ 
-        {   
-            "image_id": "3MSZA.mp4", 
-            "caption": "person turn a light on.",
-            "timestamp": [24.3, 30.4],
-        },
-        ...
-        ]
-    }
-    '''
 
     for split in ["test", "val", "train"]:
         if args.dataset == "charades":
             filename = f"charades_sta_{split}.txt"
-            annos = read_txt(os.path.join(args.anno_path, filename), args.video_path)
+            annos = process_charades_tvg(os.path.join(args.anno_path, filename), args.video_path)
             data = {}
             data["annotations"] = annos
         elif args.dataset == "anet":
             mapping = {'train': 'train.json', 'val': 'val_1.json', 'test': 'val_2.json'}
             filename = mapping[split]
             annos = json.load(open(os.path.join(args.anno_path, filename), "r"))
-            annos = process_anet(annos, args.video_path)
+            annos = process_anet_dvc(annos, args.video_path)
             data = {}
             data["annotations"] = annos
         else:

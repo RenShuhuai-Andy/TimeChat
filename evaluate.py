@@ -43,15 +43,15 @@ def read_txt(path):
 def load_data(args, anno_path, split=None):
     '''
     anno data example:
-    [
-        {
-            "image_id": "xHr8X2Wpmno.mp4"
-            "duration": 206.86, 
-            "segments": [[47, 60], [67, 89], [91, 98], [99, 137], [153, 162], [163, 185]], 
-            "pure_cap": "pick the ends off the verdalago. ...
+    {"annotations":
+        [
+            {
+                "image_id": "xHr8X2Wpmno.mp4"
+                ...
+            },
             ...
-        }, ...
-    ]
+        ]
+    }
     '''
     file_path = os.path.join(anno_path, f'{split}.caption_coco_format.json')
     with open(file_path, 'r') as f:

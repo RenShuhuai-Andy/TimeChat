@@ -156,19 +156,31 @@ The datum schema should be like:
 1. If you want to construct evaluation datasets by yourself and use our eval code, you need to transform data annotations into coco format. You can write processing code in `utils/get_coco_format.py`.
 
 The datum schema should be like:
+
+for **dense video captioning**:
+```json
+{
+    "annotations": 
+    [
+        {
+            "image_id": "3MSZA.mp4",
+            "duration": 206.86,
+            "segments": [[47, 60], [67, 89], [91, 98], [99, 137], [153, 162], [163, 185]],
+            "caption": "pick the ends off the verdalago. ..."
+        },
+        ...
+    ]
+}
+```
+for **temporal video grounding**:
 ```json
 {
     "annotations": 
     [
       {   
-        "image_id": "3MSZA.mp4", 
-        "caption": "person turn a light on.",
-        "timestamp": [24.3, 30.4]
-      },
-      {   
-        "image_id": "...", 
-        "caption": "...",
-        "timestamp": ...
+            "image_id": "3MSZA.mp4", 
+            "caption": "person turn a light on.",
+            "timestamp": [24.3, 30.4]
       },
       ...
     ]
