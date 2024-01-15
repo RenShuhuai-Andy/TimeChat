@@ -7,7 +7,7 @@
 
 import logging
 import os
-
+import wandb
 import torch
 import torch.distributed as dist
 from timechat.common.dist_utils import get_rank, get_world_size, is_main_process, is_dist_avail_and_initialized
@@ -235,6 +235,11 @@ class BaseTask:
 
             metric_logger.update(loss=loss.item())
             metric_logger.update(lr=optimizer.param_groups[0]["lr"])
+
+            if is_main_process() and wandb.run is not None:
+                wandb.log({'train/loss': loss.item(),
+                           'train/lr': optimizer.param_groups[0]["lr"]},
+                          step=epoch * iters_per_epoch + i)
 
         # after train_epoch()
         # gather the stats from all processes

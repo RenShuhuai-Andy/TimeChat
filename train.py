@@ -9,14 +9,14 @@ Adapted from salesforce@LAVIS and Vision-CAIR@MiniGPT-4. Below is the original c
 import argparse
 import os
 import random
-
+import wandb
 import numpy as np
 import torch
 import torch.backends.cudnn as cudnn
 
 import timechat.tasks as tasks
 from timechat.common.config import Config
-from timechat.common.dist_utils import get_rank, init_distributed_mode
+from timechat.common.dist_utils import get_rank, init_distributed_mode, is_main_process
 from timechat.common.logger import setup_logger
 from timechat.common.optims import (
     LinearWarmupCosineLRScheduler,
@@ -96,6 +96,13 @@ def main():
     # datasets['webvid']['train'][0]
     # datasets
     model = task.build_model(cfg)
+
+    if is_main_process():
+        wandb.init(
+            # Set the project where this run will be logged
+            project="timechat",
+            name=cfg.run_cfg.output_dir.split('/')[-1],
+        )
 
     runner = get_runner_class(cfg)(
         cfg=cfg, job_id=job_id, task=task, model=model, datasets=datasets
