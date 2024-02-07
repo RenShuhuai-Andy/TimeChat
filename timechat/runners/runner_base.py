@@ -627,9 +627,9 @@ class RunnerBase:
             cached_file = download_cached_file(
                 url_or_filename, check_hash=False, progress=True
             )
-            checkpoint = torch.load(cached_file, map_location=self.device, strict=False)
+            checkpoint = torch.load(cached_file, map_location=self.device)
         elif os.path.isfile(url_or_filename):
-            checkpoint = torch.load(url_or_filename, map_location=self.device, strict=False)
+            checkpoint = torch.load(url_or_filename, map_location=self.device)
         else:
             raise RuntimeError("checkpoint url or path is invalid")
 
