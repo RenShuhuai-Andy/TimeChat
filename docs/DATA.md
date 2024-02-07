@@ -36,6 +36,13 @@ python utils/compress_video_data.py \
 
 Note that the audio is also removed from the video files.
 
+### Process HiREST
+For `HiREST_step` dataset in TimeIT (`instruct_action_0.5k_hirest.json`), you can use the following commands to crop the videos into clips:
+1. download the videos directory from HiREST (see the following file structure)
+2. download the annotations directory from https://huggingface.co/datasets/ShuhuaiRen/TimeIT/tree/main/data/step_localization/hirest_step
+3. run `python utils/process_hirest.py`
+
+
 ## Instruction data
 - TimeIT: https://huggingface.co/datasets/ShuhuaiRen/TimeIT
 - Valley: https://huggingface.co/datasets/luoruipu1/Valley-Instruct-73k
@@ -101,6 +108,9 @@ data/
             |-- video---YU8YcWeUU
             |-- ...
 |-- HiREST/
+    |-- clips/
+        |-- -17SPG-3Jis_53_242.mp4
+        |-- ...
     |-- videos/
         |-- -17SPG-3Jis.mp4
         |-- ...
