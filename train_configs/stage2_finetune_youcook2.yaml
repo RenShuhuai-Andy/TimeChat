@@ -11,8 +11,8 @@ model:
   vit_model: "ckpt/eva-vit-g/eva_vit_g.pth"
   llama_model: "ckpt/Video-LLaMA-2-7B-Finetuned/llama-2-7b-chat-hf/"
   q_former_model: "ckpt/instruct-blip/instruct_blip_vicuna7b_trimmed.pth"
-  ckpt: "ckpt/timechat/train_stage2_llama2_7b_time104k_valley72k_bz32_f96_epoch3_open_i_instruct_qformer_lora_bind_time_ws32_mfp96_mtl2048_asr/20231109161/checkpoint_2.pth"
-#  ckpt: "ckpt/Video-LLaMA-2-7B-Finetuned/VL_LLaMA_2_7B_Finetuned.pth"
+  ckpt: "ckpt/timechat/timechat_7b.pth"  # continue fine-tuning from TimeChat-7B ckpt
+#  ckpt: "ckpt/Video-LLaMA-2-7B-Finetuned/VL_LLaMA_2_7B_Finetuned.pth"  # fine-tuning from Video-LLaMA-2-7B ckpt
 
   # only train vision branch
   frozen_llama_proj: False
