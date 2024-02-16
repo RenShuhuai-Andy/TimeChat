@@ -42,6 +42,28 @@ For `HiREST_step` dataset in TimeIT (`instruct_action_0.5k_hirest.json`), you ca
 2. download the annotations directory from https://huggingface.co/datasets/ShuhuaiRen/TimeIT/tree/main/data/step_localization/hirest_step
 3. run `python utils/process_hirest.py`
 
+### Automatic speech transcription
+To use the automatic speech transcription, you can use the following commands:
+1. Extract audios from videos. Examples:
+    ```bash
+    python utils/extract_audio.py --dir /home/v-shuhuairen/mycontainer/data/DiDeMo/ --video_folder videos
+    for i in {0..179}; do python utils/extract_audio.py --dir /home/v-shuhuairen/mycontainer/data/COIN/ --video_folder videos_ali/${i} --audio_folder audio_files/${i}; done
+    ```
+2. Automatic speech transcription using [Whisper](https://github.com/linto-ai/whisper-timestamped). Examples:
+    ```bash
+    python utils/asr/asr.py --audio_dir audio_files --dir /home/v-shuhuairen/mycontainer/data/DiDeMo/
+    for i in {0..179}; do python utils/asr/asr.py --dir /home/v-shuhuairen/mycontainer/data/COIN/ --audio_dir audio_files/${i}; done
+    ```
+
+3. Clean the ASR results
+    ```bash
+    python utils/clean_asr.py --dir /home/v-shuhuairen/mycontainer/data/DiDeMo/whisper_outputs_with_time/
+    ```
+
+4. Incorporate the ASR results into the instructions
+    ```bash
+    python utils/asr_data_process.py
+    ```
 
 ## Instruction data
 - TimeIT: https://huggingface.co/datasets/ShuhuaiRen/TimeIT
