@@ -42,6 +42,10 @@ For `HiREST_step` dataset in TimeIT (`instruct_action_0.5k_hirest.json`), you ca
 2. download the annotations directory from https://huggingface.co/datasets/ShuhuaiRen/TimeIT/tree/main/data/step_localization/hirest_step
 3. run `python utils/process_hirest.py`
 
+### Process Valley
+1. download the videos from Valley (https://github.com/RupertLuo/Valley/blob/main/Crawler/README.md)
+2. run `python utils/process_valley.py` (including video cropping for VATEX)
+
 ### Automatic speech transcription
 To use the automatic speech transcription, you can use the following commands:
 1. Extract audios from videos. Examples:
@@ -67,7 +71,7 @@ To use the automatic speech transcription, you can use the following commands:
 
 ## Instruction data
 - TimeIT: https://huggingface.co/datasets/ShuhuaiRen/TimeIT
-- Valley: https://huggingface.co/datasets/luoruipu1/Valley-Instruct-73k
+- Valley: https://huggingface.co/datasets/luoruipu1/Valley-Instruct-65k
 
 Clone the TimeIT dataset under `TimeChat/data`
 ```bash

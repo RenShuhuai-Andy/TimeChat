@@ -50,9 +50,9 @@
 
 The following checkpoints store learnable parameters (positional embedding layers, Time-aware Frame Encoder, Sliding Video Q-Former, linear projection layers, and lora) only.
 
-| Checkpoint              | LLM backbone | Link                                                                            | Note                                                                                                                                                                                                          |
-|:------------------------|--------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| TimeChat-2-7B-Finetuned | LLaMA-2 7B   | [link](https://huggingface.co/ShuhuaiRen/TimeChat-7b/blob/main/timechat_7b.pth) | Fine-tuned on the instruction-tuning data from [TimeIT-104K](https://huggingface.co/datasets/ShuhuaiRen/TimeIT) (asr version) and [Valley-73K](https://huggingface.co/datasets/luoruipu1/Valley-Instruct-73k) |
+| Checkpoint              | LLM backbone | Link                                                                            | Note                                                                                                                                                                                                                                                                                                                                                         |
+|:------------------------|--------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TimeChat-2-7B-Finetuned | LLaMA-2 7B   | [link](https://huggingface.co/ShuhuaiRen/TimeChat-7b/blob/main/timechat_7b.pth) | Fine-tuned on the instruction-tuning data from [TimeIT-104K](https://huggingface.co/datasets/ShuhuaiRen/TimeIT) (asr version) and [Valley-73K](https://huggingface.co/datasets/ShuhuaiRen/TimeIT/blob/main/data/valley/Valley_instruct_73k.json) (previous version of current [Valley-65K]((https://huggingface.co/datasets/luoruipu1/Valley-Instruct-65k))) |
 
 
 ## Usage
@@ -123,7 +123,7 @@ Please refer to our Jupyter Demo [here](./demo.ipynb).
 For now, the fine-tuning dataset consists of:
 * 104K time-sensitive instructions from **TimeIT** [[link](https://huggingface.co/datasets/ShuhuaiRen/TimeIT)]
   * see [DATA.md](./docs/DATA.md)
-* 73K video-based instructions from **Valley** [[link](https://huggingface.co/datasets/luoruipu1/Valley-Instruct-73k)]
+* 73K (now 65K) video-based instructions from **Valley** [[link](https://huggingface.co/datasets/luoruipu1/Valley-Instruct-65k)]
 
 ### Script
 
