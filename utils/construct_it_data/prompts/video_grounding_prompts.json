@@ -1,0 +1,8 @@
+{
+    "0": "Localize the visual content described by the given textual query <query_placeholder> in the video, and output the start and end timestamps in seconds.",
+    "1": "Detect and report the start and end timestamps of the video segment that semantically matches the given textual query <query_placeholder>.",
+    "2": "Give you a textual query: <query_placeholder> When does the described content occur in the video? Please return the timestamp in seconds.",
+    "3": "Locate and describe the visual content mentioned in the text query <query_placeholder> within the video, including timestamps.",
+    "4": "The given natural language query <query_placeholder> is semantically  aligned with a video moment, please give the start time and end time of the video moment.",
+    "5": "Find the video segment that corresponds to the given textual query <query_placeholder> and determine its start and end seconds."
+}

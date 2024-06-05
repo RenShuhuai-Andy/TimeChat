@@ -1,0 +1,8 @@
+{
+    "0": "Localize a series of activity events in the video, output the start and end timestamp for each event, and describe each event with sentences. The output format of each predicted event should be like: 'start - end seconds, event description'. A specific example is: ' 90 - 102 seconds, spread margarine on two slices of white bread in the video'.",
+    "1": "Determine the start and end times of various activity events in the video, accompanied by descriptions.",
+    "2": "Capture and describe the activity events in the given video, specifying their respective time intervals, and outputting the time intervals in the 'start - end seconds format'.",
+    "3": "Identify, timestamp, and describe various activity events occurring in the video. The timestamp should include the start time and end time in seconds.",
+    "4": "Detect and report the start and end timestamps of activity events in the video, along with descriptions.",
+    "5": "Pinpoint the time intervals of activity events in the video, and provide detailed descriptions for each event."
+}

@@ -1,0 +1,8 @@
+{
+    "0": "Localize a series of action steps in the given video, output a start and end timestamp for each step, and briefly describe the step. ",
+    "1": "Locate and describe a series of actions or steps in the video, including their start and end timestamps.",
+    "2": "Identify and mark the video segments corresponding to a series of actions or steps, specifying the timestamps and describing the steps.",
+    "3": "Find, identify, and determine the temporal boundaries of a series of distinct actions or steps occurring throughout the video. For each action, output the corresponding start and end timestamps, accompanied by a concise description.",
+    "4": "Identify and localize a series of steps or actions occurring in the video, providing start and end timestamps and related descriptions.",
+    "5": "Locate and pinpoint a sequential series of specific actions or steps in the video, accurately specifying the start and end timestamps for each action. Additionally, provide a succinct description of each action."
+}

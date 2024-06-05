@@ -1,0 +1,8 @@
+{
+    "0": "After watching the video from the YTTemporal dataset, transcribe the spoken content into text and document the start and end time for each segment. The format should be: 'start time - end time, transcribed speech'.",
+    "1": "Observe the video thoroughly and transcribe the speech in a maximum of 20 segments. Make sure to include the starting and ending times for each segment in the following format: 'start time - end time, transcribed speech'.",
+    "2": "Watch the provided video and transcribe the audio content. For each transcribed speech segment, note down its duration in the format: 'start time - end time, transcribed speech'.",
+    "3": "Review the video from the YTTemporal dataset. Identify segments where speech occurs and transcribe those into text. Record the start and end time for each segment in this format: 'start time - end time, transcribed speech'.",
+    "4": "Transcribe the spoken words in the video and note down the timestamps for each segment. Your output should look like this: 'start time - end time, transcribed speech'.",
+    "5": "Watch the video, transcribe the speech, and indicate when each segment starts and ends. Follow this format: 'start time - end time, transcribed speech'."
+}
