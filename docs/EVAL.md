@@ -1,5 +1,8 @@
 # Evaluation Results
 
+**Tips** 🚀: We decrease `lora_alpha` from `32` to `20` during inference to restore the model's language capabilities, which is very helpful for benchmarks in QA forms. 
+Please refer to [FAQ.md](https://github.com/RenShuhuai-Andy/TimeChat/blob/master/docs/FAQ.md#3-how-to-better-instruct-the-model-to-perform-qa-or-other-specialized-tasks) for details.
+
 ## TempCompass
 link: https://github.com/llyx97/TempCompass
 
