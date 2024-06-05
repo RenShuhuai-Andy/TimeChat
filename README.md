@@ -13,6 +13,7 @@
 </div>
 
 ## News
+- [24.06.04] ![NEW!](https://img.shields.io/badge/NEW!-red) Add FAQ, see [docs](./docs/FAQ.md).
 - [24.06.04] ![NEW!](https://img.shields.io/badge/NEW!-red) Release evaluation results of TimeChat-7b on several VideoLLM benchmarks (e.g., MVBench, TempCompass, etc.), see [docs](./docs/EVAL.md).
 - [24.01.09] Release **TimeChat-7b** 🤗 [checkpoint](https://huggingface.co/ShuhuaiRen/TimeChat-7b) and [local demo](./demo.ipynb).
 - [23.12.27] 🤗 Release the instruction-tuning dataset of **[TimeIT](https://huggingface.co/datasets/ShuhuaiRen/TimeIT)**.
