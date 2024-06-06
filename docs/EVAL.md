@@ -49,6 +49,16 @@ link: https://github.com/egoschema/EgoSchema
 
 leaderboard: https://www.kaggle.com/competitions/egoschema-public/overview
 
+evaluation scripts:
+
+1. firstly reset `MODEL_DIR`, `ANNO_DIR`, and `VIDEO_DIR` in `eval_egoschema.sh`
+
+2. run:
+    ```bash
+    cd benchmark
+    sh eval_egoschema.sh
+    ```
+
 results:
 <p float="left">
     <img src="../figs/ego_schema.png" style="width: 70%; margin: auto;">

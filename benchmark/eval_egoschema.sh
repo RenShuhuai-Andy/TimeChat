@@ -1,8 +1,6 @@
 #!/bin/bash
 
-#DIR="ckpt/timechat"
-#MODEL_DIR=${DIR}/timechat_7b.pth
-DIR="/home/v-shuhuairen/mycontainer/ckpt/TimeChat-7b"
+DIR="ckpt/timechat"
 MODEL_DIR=${DIR}/timechat_7b.pth
 
 WS=32
