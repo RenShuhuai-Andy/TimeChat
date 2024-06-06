@@ -74,6 +74,7 @@ class TimeChat(Blip2Base):
             fusion_head_layers=2,
             num_video_query_token=32,
             lora=False,
+            lora_alpha=32,
             qformer_text_input=False,
             lora_inference_mode=True,
             window_size=0,
@@ -171,13 +172,13 @@ class TimeChat(Blip2Base):
 
         self.lora = lora
         if self.lora:
-            logging.info('Using LORA')
+            logging.info(f'Using LORA (lora_alpha={lora_alpha})')
             from peft import LoraConfig, get_peft_model, TaskType
             config = LoraConfig(
                 task_type=TaskType.CAUSAL_LM,
                 inference_mode=lora_inference_mode,
                 r=32,
-                lora_alpha=32,
+                lora_alpha=lora_alpha,
                 lora_dropout=0.1,
                 target_modules=['q_proj', 'k_proj', 'v_proj', 'o_proj']
             )
@@ -526,6 +527,7 @@ class TimeChat(Blip2Base):
         low_resource = cfg.get("low_resource", False)
         device_8bit = cfg.get("device_8bit", 0)
         lora = cfg.get("lora", False)
+        lora_alpha = cfg.get("lora_alpha", 32)
         lora_inference_mode = cfg.get("lora_inference_mode", False)
 
         prompt_path = cfg.get("prompt_path", "")
@@ -571,6 +573,7 @@ class TimeChat(Blip2Base):
             num_video_query_token=num_video_query_token,
             llama_proj_model=llama_proj_model,
             lora=lora,
+            lora_alpha=lora_alpha,
             qformer_text_input=qformer_text_input,
             lora_inference_mode=lora_inference_mode,
             window_size=window_size,

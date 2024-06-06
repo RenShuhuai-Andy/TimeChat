@@ -78,6 +78,8 @@ def main(args):
     args.model_type = model_config.model_type
     if args.no_lora:
         model_config.lora = False
+    else:
+        model_config.lora_alpha = args.lora_alpha
 
     # set after init_distributed_mode() to only log on master.
     setup_logger()
@@ -150,6 +152,7 @@ if __name__ == "__main__":
     parser.add_argument('--no_lora', action='store_true')
     parser.add_argument('--window_size', type=int, default=32)
     parser.add_argument('--stride', type=int, default=32)
+    parser.add_argument('--lora_alpha', type=int, default=20)
     args = parser.parse_args()
     accelerate = Accelerator()
     main(args)

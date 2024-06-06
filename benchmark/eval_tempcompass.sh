@@ -23,5 +23,6 @@ for TASK_TYPE in "${TASK_TYPES[@]}"; do
     --output_dir ${OUTPUT_DIR} --num_frames ${NUM_FRAME} \
     --timechat_model_path ${MODEL_DIR} \
     --window_size ${WS} --stride ${STRIDE} \
-    --task_type ${TASK_TYPE}
+    --task_type ${TASK_TYPE} \
+    --lora_alpha 20
 done
