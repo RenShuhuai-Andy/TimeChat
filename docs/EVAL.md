@@ -1,4 +1,4 @@
-# Evaluation Results
+# Zero-shot Evaluation Results
 
 **Tips** 🚀: We decrease `lora_alpha` from `32` to `20` during inference to restore the model's language capabilities, which is very helpful for benchmarks in QA forms. 
 Please refer to [FAQ.md](https://github.com/RenShuhuai-Andy/TimeChat/blob/master/docs/FAQ.md#3-how-to-better-instruct-the-model-to-perform-qa-or-other-specialized-tasks) for details.
@@ -39,14 +39,20 @@ evaluation scripts:
     ```
 
 results:
-results:
 <p float="left">
     <img src="../figs/mvbench.png" style="width: 100%; margin: auto;">
 </p>
 
 ## EgoSchema
 
-TBD
+link: https://github.com/egoschema/EgoSchema
+
+leaderboard: https://www.kaggle.com/competitions/egoschema-public/overview
+
+results:
+<p float="left">
+    <img src="../figs/ego_schema.png" style="width: 70%; margin: auto;">
+</p>
 
 ## VideoMME
 
