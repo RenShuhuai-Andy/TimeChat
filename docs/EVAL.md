@@ -81,4 +81,6 @@ evaluation scripts:
     ```
 
 results:
-
+<p float="left">
+    <img src="../figs/videomme.png" style="width: 100%; margin: auto;">
+</p>
