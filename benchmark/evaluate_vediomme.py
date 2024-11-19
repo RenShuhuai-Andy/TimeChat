@@ -128,7 +128,7 @@ def main(args):
             for question in data:
                 videoID = question['videoID']
                 video_path = os.path.join(args.video_path, f'{videoID}.mp4')
-                subtitle_path = os.path.join(args.subtitle_path,f'{videoID}.srt')
+                # subtitle_path = os.path.join(args.subtitle_path,f'{videoID}.srt')
                 # for question in questions:
                     # if args.task_type == 'caption_matching':
                     #     # question example: "Which description is a more suitable match for the video?\nOption 1: The man is dribbling a basketball.\nOption 2: A man is dunking a basketball."
@@ -136,9 +136,9 @@ def main(args):
                     #     options = [o.split(':')[0] for o in options]
                     #     inp = question['question'] + answer_prompt[args.task_type].replace(':', f" ({' or '.join(options)}):")
                     # else:
-                with open(subtitle_path, 'r', encoding='utf-8') as file:
-                    content = file.read()
-                prompt = (f"Transcribed Speech:{content}\nSelect the best answer to the following multiple-choice question based on the egocentric video. Respond with only the letter (A, B, C, or D) of the correct option. "
+                # with open(subtitle_path, 'r', encoding='utf-8') as file:
+                #     content = file.read()
+                prompt = (f"Select the best answer to the following multiple-choice question based on the egocentric video. Respond with only the letter (A, B, C, or D) of the correct option. "
                 f"\nQuestion: {question['question']}\n Options: {question['option'][0]}\n{question['option'][1]}\n{question['option'][2]}\n{question['option'][3]}\nThe best answer is:")
 
                 video_llm_pred = inference_single_video(video_path,prompt, chat, args)
@@ -157,8 +157,8 @@ if __name__ == "__main__":
     parser.add_argument('--anno_path', type=str, default='/home/wangziyue/workspace/dataset/Video-MME')
     parser.add_argument('--video_path', type=str, default='/home/wangziyue/workspace/dataset/Video-MME/data')
     parser.add_argument('--model_type', type=str)
-    parser.add_argument('--output_dir', default='/home/wangziyue/workspace/TimeChat/ckpt/timechat/videomme_subtitle')
-    parser.add_argument('--subtitle_path', default='/home/wangziyue/workspace/dataset/Video-MME/subtitle')
+    parser.add_argument('--output_dir', default='/home/wangziyue/workspace/TimeChat/ckpt/timechat/videomme')
+    # parser.add_argument('--subtitle_path', default='/home/wangziyue/workspace/dataset/Video-MME/subtitle')
     parser.add_argument('--num_frames', type=int, default=96)
     parser.add_argument('--top_p', type=float, default=0.8)
     parser.add_argument('--temperature', type=float, default=1)
