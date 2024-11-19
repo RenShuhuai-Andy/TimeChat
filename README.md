@@ -14,7 +14,7 @@
 
 ## News
 - [24.06.04] ![NEW!](https://img.shields.io/badge/NEW!-red) Add FAQ, see [FAQ.md](./docs/FAQ.md).
-- [24.06.04] ![NEW!](https://img.shields.io/badge/NEW!-red) Release zero-shot evaluation results of TimeChat-7b on several VideoLLM benchmarks (e.g., MVBench, TempCompass, etc.), see [EVAL.md](./docs/EVAL.md).
+- [24.06.04] ![NEW!](https://img.shields.io/badge/NEW!-red) Release zero-shot evaluation results of TimeChat-7b on several VideoLLM benchmarks (e.g., VideoMME, MVBench, TempCompass, etc.), see [EVAL.md](./docs/EVAL.md).
 - [24.01.09] Release **TimeChat-7b** 🤗 [checkpoint](https://huggingface.co/ShuhuaiRen/TimeChat-7b) and [local demo](./demo.ipynb).
 - [23.12.27] 🤗 Release the instruction-tuning dataset of **[TimeIT](https://huggingface.co/datasets/ShuhuaiRen/TimeIT)**.
 - [23.12.06] Release the initial version of **TimeChat**. 
