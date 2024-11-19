@@ -66,4 +66,19 @@ results:
 
 ## VideoMME
 
-TBD
+link:https://github.com/BradyFU/Video-MME
+
+leaderboard:https://huggingface.co/datasets/lmms-lab/Video-MME
+
+evaluation scripts:
+
+1. firstly reset `MODEL_DIR`, `ANNO_DIR`, and `VIDEO_DIR` in `eval_videomme.sh`
+
+2. run:
+    ```bash
+    cd benchmark
+    sh videomme.sh
+    ```
+
+results:
+
