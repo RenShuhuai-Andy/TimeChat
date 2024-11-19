@@ -6,10 +6,10 @@ MODEL_DIR=${DIR}/timechat_7b.pth
 WS=32
 STRIDE=32
 
-TASK='videomme_subtitle'
+TASK='videomme'
 ANNO_DIR='/home/wangziyue/workspace/dataset/Video-MME'
 VIDEO_DIR='/home/wangziyue/workspace/dataset/Video-MME/data'
-SUBTITLE_DIR='/home/wangziyue/workspace/dataset/Video-MME/subtitle'
+# SUBTITLE_DIR='/home/wangziyue/workspace/dataset/Video-MME/subtitle'
 
 NUM_FRAME=96
 OUTPUT_DIR=${DIR}/${TASK}
