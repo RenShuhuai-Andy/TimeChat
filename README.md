@@ -13,6 +13,7 @@
 </div>
 
 ## News
+- [25.05.01] ![NEW!](https://img.shields.io/badge/NEW!-red) We release [TimeChat-Online-7B](https://timechat-online.github.io/), a new VideoLLM for efficient streaming video understanding! Now with [paper](https://arxiv.org/abs/2504.17343), [code](https://github.com/yaolinli/TimeChat-Online), [dataset](https://huggingface.co/datasets/yaolily/TimeChat-Online-139K), and [model](https://huggingface.co/wyccccc/TimeChatOnline-7B) all available! 🎉 
 - [24.06.04] ![NEW!](https://img.shields.io/badge/NEW!-red) Add FAQ, see [FAQ.md](./docs/FAQ.md).
 - [24.06.04] ![NEW!](https://img.shields.io/badge/NEW!-red) Release zero-shot evaluation results of TimeChat-7b on several VideoLLM benchmarks (e.g., VideoMME, MVBench, TempCompass, etc.), see [EVAL.md](./docs/EVAL.md).
 - [24.01.09] Release **TimeChat-7b** 🤗 [checkpoint](https://huggingface.co/ShuhuaiRen/TimeChat-7b) and [local demo](./demo.ipynb).
